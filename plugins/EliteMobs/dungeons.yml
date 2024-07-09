@@ -1,0 +1,13 @@
+dungeonRezInstructions: '&aPunch to rez!'
+dungeonLivesLeftText: '&c$amount lives left!'
+joinDungeonAsPlayerText: '&fJoin $dungeonName as a player!'
+joinDungeonAsSpectatorText: '&fJoin $dungeonName as a spectator!'
+instancedDungeonTitle: Start $difficulty difficulty dungeon!
+instancedDungeonDescription:
+- '&fCreate a new instance of the dungeon'
+- $dungeonName &ffor yourself and maybe
+- '&fsome friends!'
+allowSpectatorsInInstancedContent: true
+instancedDungeonCompleteMessage: '[EliteMobs] Dungeon completed! It will self-destruct
+  in 2 minutes!'
+instancedDungeonClosingInstanceMessage: '[EliteMobs] Closing instance!'

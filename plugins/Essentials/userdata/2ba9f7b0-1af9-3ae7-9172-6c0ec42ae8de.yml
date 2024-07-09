@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1720506449380
+  login: 1720506359319
+money: '0'
+last-account-name: Pekora_UwU
+lastlocation:
+  world: 54601687-57b4-47e6-b1e5-a182873bd760
+  world-name: world
+  x: 5.5
+  y: 93.0
+  z: 9.5
+  yaw: 0.0
+  pitch: 0.0
+logoutlocation:
+  world: 54601687-57b4-47e6-b1e5-a182873bd760
+  world-name: world
+  x: 39.648173475139295
+  y: 63.0
+  z: 61.13763556147744
+  yaw: 145.07504272460938
+  pitch: 5.648613929748535

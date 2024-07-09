@@ -1,0 +1,4 @@
+Only broadcast event message in event worlds: false
+actionEventMinimumCooldownMinutes: 240
+actionEventsEnabled: true
+timedEventsEnabled: true
