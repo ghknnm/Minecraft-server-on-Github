@@ -2,7 +2,7 @@
 1. Fork cái repo này
 2. Ấn vô code -> codespaces -> Create codespace on main
 3. Thoát cái tab codespaces, vô lại cái codespaces, ấn 3 chấm r tắt cái Auto delete codespaces và chỉnh machine type cũng ở đấy. Rồi vô lại codespaces
-4. (Tùy) Nếu ko muốn chơi bản 1.20.4 thì xóa cái file jar ở main đi dùng lệnh "wget (link file server software)". Còn nếu muốn paper thì [link archive các phiên bản paper để dùng cho wget](<https://qing762.is-a.dev/api/papermc>)
+4. (Tùy) Nếu ko muốn chơi bản 1.21.4 thì xóa cái file jar ở main đi dùng lệnh "wget (link file server software)". Còn nếu muốn paper thì [link archive các phiên bản paper để dùng cho wget](<https://qing762.is-a.dev/api/papermc>)
 5. Nếu 8gb ram : "java -Xmx6G -Xsm5G -jar (file jar paper) --nogui" , nếu 16gb ram : "java -Xmx14G -Xsm12G -jar (file jar paper) --nogui"
 6. Lúc server chạy thì sẽ có cái link playit.gg, giữ ctrl r click vô, create account -> use guest account -> chờ r ấn add agent -> chờ tiếp và boom Tunnel Created: (cái này random).joinmc.link <= cái này sẽ là ip server
 7. Mở Minecraft lên r copy cái link này để vô thôi :D
