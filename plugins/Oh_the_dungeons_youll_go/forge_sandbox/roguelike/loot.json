@@ -1,0 +1,22 @@
+{
+  "loots": [
+    "SUPPLY",
+    "ENCHANTBOOK",
+    "MUSIC",
+    "FOOD",
+    "JUNK",
+    "WEAPON",
+    "ARMOUR",
+    "SPECIAL",
+    "BLOCK",
+    "REWARD",
+    "TOOL",
+    "SMITHY",
+    "ENCHANTBONUS",
+    "POTION",
+    "BREWING",
+    "ORE"
+  ],
+  "extra_ItemSpecialty": true,
+  "extra_ItemEnchBook": true
+}

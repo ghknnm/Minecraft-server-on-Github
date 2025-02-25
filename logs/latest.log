@@ -1,0 +1,746 @@
+[13:06:49] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Microsoft Microsoft-10376803) on Linux 6.5.0-1025-azure (amd64)
+[13:06:49] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.4-2398-HEAD@196c176 (2025-02-19T06:35:33Z) for Minecraft 1.21.4
+[13:06:50] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:06:52] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
+[13:07:01] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 9349ms.
+[13:07:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[13:07:01] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/nightcore-2.7.3.4.jar'...
+[13:07:01] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/TreeAssist.jar'...
+[13:07:01] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/Lunamatic-1.2.3-all.jar'...
+[13:07:02] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/TreeAssist.jar' in 637ms.
+[13:07:02] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/HorrorMinecraft-2.9.6.jar'...
+[13:07:02] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/nightcore-2.7.3.4.jar' in 1175ms.
+[13:07:02] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/znpcs-5.0.jar'...
+[13:07:02] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Lunamatic-1.2.3-all.jar' in 1331ms.
+[13:07:02] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldguard-bukkit-7.0.13-dist.jar'...
+[13:07:02] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/HorrorMinecraft-2.9.6.jar' in 719ms.
+[13:07:02] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/OhTheDungeonsYoullGo-1.21.4.jar'...
+[13:07:02] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/znpcs-5.0.jar' in 351ms.
+[13:07:02] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/IronElevators-1.6.3.jar'...
+[13:07:03] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/IronElevators-1.6.3.jar' in 269ms.
+[13:07:03] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/DisableEnd v1.0.jar'...
+[13:07:03] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/DisableEnd v1.0.jar' in 199ms.
+[13:07:03] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/nLogin.jar'...
+[13:07:04] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldguard-bukkit-7.0.13-dist.jar' in 1525ms.
+[13:07:04] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/BetterStructures.jar'...
+[13:07:04] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/nLogin.jar' in 1418ms.
+[13:07:04] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/images-2.5.3.jar'...
+[13:07:05] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/images-2.5.3.jar' in 915ms.
+[13:07:05] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/playit-minecraft-plugin.jar'...
+[13:07:07] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 5843ms.
+[13:07:07] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/ExcellentEnchants-4.3.3.jar'...
+[13:07:08] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/ExcellentEnchants-4.3.3.jar' in 858ms.
+[13:07:08] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/InfernalMobs.jar'...
+[13:07:08] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/playit-minecraft-plugin.jar' in 2473ms.
+[13:07:08] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/realisticsurvival-1.2.9-RELEASE.jar'...
+[13:07:08] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/InfernalMobs.jar' in 219ms.
+[13:07:08] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/OhTheDungeonsYoullGo-1.21.4.jar' in 5880ms.
+[13:07:08] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/realisticsurvival-1.2.9-RELEASE.jar' in 742ms.
+[13:07:09] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/BetterStructures.jar' in 4731ms.
+[13:07:09] [ServerMain/INFO]: [PluginInitializerManager] Initialized 25 plugins
+[13:07:09] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (25):
+ - BetterStructures (1.7.8), DisableEnd (1.0-SNAPSHOT), Essentials (2.21.0-dev+180-fe27182), ExcellentEnchants (4.3.3), FastAsyncWorldEdit (2.12.3), HorrorMinecraft (2.9.6), Images (2.5.3), InfernalMobs (6.8), IronElevators (1.6.3), LuckPerms (5.4.156), Lunamatic (1.2.3), Oh_the_dungeons_youll_go (1.21.4), ProtocolLib (5.4.0-SNAPSHOT-741), PurpurExtras (1.34.5), RealisticSurvival (1.2.9-RELEASE), ServersNPC (5.0), SkinsRestorer (15.5.3), TreeAssist (7.3.63), ViaBackwards (5.2.1), ViaVersion (5.2.1), WorldGuard (7.0.13+82fdc65), nLogin (10.4.21), nightcore (2.7.3.4), packetevents (2.7.0), playit-gg (0.1.4)
+[13:07:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:07:16] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[13:07:16] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[13:07:17] [ServerMain/INFO]: No existing world data, creating new world
+[13:07:18] [ServerMain/INFO]: Loaded 1370 recipes
+[13:07:18] [ServerMain/INFO]: Loaded 1481 advancements
+[13:07:18] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[13:07:19] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 368.4ms
+[13:07:19] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[13:07:19] [Server thread/INFO]: Loading properties
+[13:07:19] [Server thread/INFO]: This server is running Purpur version 1.21.4-2398-HEAD@196c176 (2025-02-19T06:35:33Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[13:07:19] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:07:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:07:19] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:07:21] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[13:07:21] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:07:22] [Server thread/INFO]: Default game type: SURVIVAL
+[13:07:22] [Server thread/INFO]: Generating keypair
+[13:07:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:07:22] [Server thread/INFO]: Using epoll channel type
+[13:07:22] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:07:22] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[13:07:23] [Server thread/INFO]: [SpigotLibraryLoader] [nightcore] Loading 2 libraries... please wait
+[13:07:24] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/6.0.0/HikariCP-6.0.0.pom
+[13:07:24] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
+[13:07:24] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
+[13:07:24] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil-core/8.5.13/fastutil-core-8.5.13.pom
+[13:07:24] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/6.0.0/HikariCP-6.0.0.jar
+[13:07:24] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/it/unimi/dsi/fastutil-core/8.5.13/fastutil-core-8.5.13.jar
+[13:07:24] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[13:07:25] [Server thread/INFO]: [SpigotLibraryLoader] [nightcore] Loaded library /workspaces/Minecraft-server-on-Github/libraries/com/zaxxer/HikariCP/6.0.0/HikariCP-6.0.0.jar
+[13:07:25] [Server thread/INFO]: [SpigotLibraryLoader] [nightcore] Loaded library /workspaces/Minecraft-server-on-Github/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[13:07:25] [Server thread/INFO]: [SpigotLibraryLoader] [nightcore] Loaded library /workspaces/Minecraft-server-on-Github/libraries/it/unimi/dsi/fastutil-core/8.5.13/fastutil-core-8.5.13.jar
+[13:07:25] [Server thread/INFO]: [nightcore] Server version detected as Purpur 1.21.4. Using paper-bridge.
+[13:07:25] [Server thread/INFO]: [nightcore] [Core Components] ENTITY_ID_GENERATOR: Loaded
+[13:07:25] [Server thread/INFO]: [nightcore] [Core Components] ITEM_NBT_COMPRESSOR: Loaded
+[13:07:25] [Server thread/INFO]: §a[Oh The Dungeons Youll Go] MC Version: 1.21.x
+[13:07:25] [Server thread/INFO]: {"loots":["SUPPLY","ENCHANTBOOK","MUSIC","FOOD","JUNK","WEAPON","ARMOUR","SPECIAL","BLOCK","REWARD","TOOL","SMITHY","ENCHANTBONUS","POTION","BREWING","ORE"],"extra_ItemSpecialty":true,"extra_ItemEnchBook":true}
+[13:07:25] [Server thread/INFO]: [SpigotLibraryLoader] [IronElevators] Loading 1 libraries... please wait
+[13:07:25] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/github/cryptomorin/XSeries/maven-metadata.xml
+[13:07:25] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/github/cryptomorin/XSeries/13.0.0/XSeries-13.0.0.pom
+[13:07:25] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+[13:07:25] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/github/cryptomorin/XSeries/13.0.0/XSeries-13.0.0.jar
+[13:07:25] [Server thread/INFO]: [SpigotLibraryLoader] [IronElevators] Loaded library /workspaces/Minecraft-server-on-Github/libraries/com/github/cryptomorin/XSeries/13.0.0/XSeries-13.0.0.jar
+[13:07:26] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.1
+[13:07:26] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.1 is now loaded. Registering protocol transformers and injecting...
+[13:07:27] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:07:27] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[13:07:27] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:07:27] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[13:07:28] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.12.3
+[13:07:28] [Server thread/INFO]: Default configuration file written: worldedit-config.yml
+[13:07:30] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@56c26c03]
+[13:07:30] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0-SNAPSHOT-741
+[13:07:30] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.4) has not yet been tested! Proceed with caution.
+[13:07:30] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.2.1
+[13:07:30] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13+82fdc65
+[13:07:30] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.156
+[13:07:33] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.7.0
+[13:07:37] [Server thread/INFO]: [nightcore] Loading server plugin nightcore v2.7.3.4
+[13:07:37] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.3
+[13:07:37] [Server thread/INFO]: [Lunamatic] Loading server plugin Lunamatic v1.2.3
+[13:07:37] [Server thread/INFO]: [TreeAssist] Loading server plugin TreeAssist v7.3.63
+[13:07:37] [Server thread/INFO]: [TreeAssist] Loading main config file: /config.yml
+[13:07:37] [Server thread/INFO]: [HORRORMC] Loading server plugin HorrorMinecraft v2.9.6
+[13:07:37] [Server thread/INFO]: [ServersNPC] Loading server plugin ServersNPC v5.0
+[13:07:37] [Server thread/INFO]: [Oh_the_dungeons_youll_go] Loading server plugin Oh_the_dungeons_youll_go v1.21.4
+[13:07:37] [Server thread/INFO]: [IronElevators] Loading server plugin IronElevators v1.6.3
+[13:07:37] [Server thread/INFO]: [DisableEnd] Loading server plugin DisableEnd v1.0-SNAPSHOT
+[13:07:37] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.21
+[13:07:38] [Server thread/INFO]: [nLogin] Downloading required dependencies (using 2 cores)
+[13:07:38] [Server thread/INFO]: [nLogin] Relocating dependencies (using 2 cores)
+[13:07:44] [Server thread/INFO]: [nLogin] All dependencies were loaded successfully. Took 6.08s
+[13:07:44] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+180-fe27182
+[13:07:44] [Server thread/INFO]: [PurpurExtras] Loading server plugin PurpurExtras v1.34.5
+[13:07:44] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v1.7.8
+[13:07:44] [Server thread/INFO]: [BetterStructures] MagmaCore v1.7 initialized!
+[13:07:44] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
+[13:07:44] [Server thread/INFO]: [Images] Loading server plugin Images v2.5.3
+[13:07:44] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[13:07:44] [Server thread/INFO]: [ExcellentEnchants] Loading server plugin ExcellentEnchants v4.3.3
+[13:07:44] [Server thread/INFO]: [InfernalMobs] Loading server plugin InfernalMobs v6.8
+[13:07:44] [Server thread/INFO]: [RealisticSurvival] Loading server plugin RealisticSurvival v1.2.9-RELEASE
+[13:07:44] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.12.3
+[13:07:44] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[13:07:44] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[13:07:44] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:07:44] [Server thread/INFO]: WEPIF: Updated config file
+[13:07:44] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[13:07:44] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightFaweAdapter as the Bukkit adapter
+[13:07:46] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0-SNAPSHOT-741
+[13:07:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.156
+[13:07:47] [Server thread/INFO]:         __    
+[13:07:47] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.156
+[13:07:47] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[13:07:47] [Server thread/INFO]: 
+[13:07:47] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:07:48] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:07:48] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:07:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:07:49] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3205ms)
+[13:07:49] [Server thread/INFO]: [nightcore] Enabling nightcore v2.7.3.4
+[13:07:50] [Server thread/INFO]: [nightcore] Downloading 'en' assets from github...
+[13:07:50] [Server thread/INFO]: [nightcore] Plugin loaded in 1170 ms!
+[13:07:50] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.3
+[13:07:51] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[13:07:52] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
+[13:07:52] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[13:07:52] [Server thread/INFO]: [Lunamatic] Enabling Lunamatic v1.2.3
+[13:07:52] [Server thread/INFO]: [org.evlis.lunamatic.Lunamatic] Begin plugin initialization...
+[13:07:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:07:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[13:07:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[13:07:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[13:07:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[13:07:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[13:07:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:07:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.3
+[13:07:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 86e796c
+[13:07:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[13:07:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:07:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[13:07:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[13:07:52] [Server thread/INFO]: [Lunamatic] Updated translation file: cs_CZ.v3.yml
+[13:07:52] [Server thread/INFO]: [Lunamatic] Updated translation file: de_DE.v3.yml
+[13:07:52] [Server thread/INFO]: [Lunamatic] Updated translation file: en_US.v3.yml
+[13:07:52] [Server thread/WARN]: [Lunamatic] Language en_US loaded successfully!
+[13:07:52] [Server thread/WARN]: [Lunamatic] Checking for updates...
+[13:07:53] [Server thread/WARN]: [Lunamatic] You are up to date!
+[13:07:53] [Server thread/INFO]: [Lunamatic] [ACF] Enabled Asynchronous Tab Completion Support!
+[13:07:54] [Server thread/WARN]: [Lunamatic] Successfully enabled Lunamatic v1.2.3
+[13:07:54] [Server thread/INFO]: [Oh_the_dungeons_youll_go] Enabling Oh_the_dungeons_youll_go v1.21.4
+[13:07:54] [Server thread/INFO]: configdir is plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike
+[13:07:54] [Server thread/INFO]: themesdir is plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/themes
+[13:07:54] [Server thread/INFO]: [OTD] Installing files plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/chests.cfg
+[13:07:54] [Server thread/INFO]: Loading chest loot file (chests.cfg)
+[13:07:54] [Server thread/INFO]: Found 1 special chest configs.
+[13:07:54] [Server thread/INFO]: Loading chest loot file (oceanic_chests.cfg)
+[13:07:54] [Server thread/INFO]: [OTD] Installing file plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/themes/common.cfg
+[13:07:54] [Server thread/INFO]: [OTD] Installing file plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/themes/continentalShelf.cfg
+[13:07:54] [Server thread/INFO]: [OTD] Installing file plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/themes/dank.cfg
+[13:07:54] [Server thread/INFO]: [OTD] Installing file plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/themes/desert.cfg
+[13:07:54] [Server thread/INFO]: [OTD] Installing file plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/themes/frozen.cfg
+[13:07:54] [Server thread/INFO]: [OTD] Installing file plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/themes/jungle.cfg
+[13:07:54] [Server thread/INFO]: [OTD] Installing file plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/themes/mesa.cfg
+[13:07:54] [Server thread/INFO]: [OTD] Installing file plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/themes/nether.cfg
+[13:07:54] [Server thread/INFO]: [OTD] Installing file plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/themes/oceanic.cfg
+[13:07:54] [Server thread/INFO]: [OTD] Installing file plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/themes/template.cfg
+[13:07:54] [Server thread/INFO]: [OTD] Installing file plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/themes/urban.cfg
+[13:07:54] [Server thread/INFO]: [OTD] Installing file plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/themes/villagelike.cfg
+[13:07:54] [Server thread/INFO]: [OTD] Installing file plugins/Oh_the_dungeons_youll_go/forge_sandbox/doomlike/themes/volcanic.cfg
+[13:07:54] [Server thread/INFO]: Found 12 themes.
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/frosted/default.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/frosted/default_spike_1.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/frosted/entrance.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/frosted/hole.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/frosted/top.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/jungle/branch.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/jungle/default.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/jungle/entrance.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/jungle/lookout.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/jungle/stairs_wrap.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/jungle/top.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/mushroom/default.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/mushroom/entrance.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/mushroom/top.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/sandy/default.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/sandy/entrance.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/sandy/top.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/sandy/sandcastle_top.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/stone/blacksmith.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/stone/default.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/stone/entrance.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/stone/lake.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/stone/library.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/stone/lookout.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/stone/mineshaft.json
+[13:07:54] [Server thread/INFO]: Reading draylars-battle-towers/stone/original.json
+[13:07:55] [Server thread/INFO]: Reading draylars-battle-towers/stone/plains.json
+[13:07:55] [Server thread/INFO]: Reading draylars-battle-towers/stone/top.json
+[13:07:55] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:07:55] [Server thread/INFO]: AsyncRoguelikeDungeon initResolver
+[13:07:55] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.21
+[13:07:55] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.75s)
+[13:07:56] [Server thread/INFO]:           __             _       
+[13:07:56] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[13:07:56] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[13:07:56] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[13:07:56] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[13:07:56] [Server thread/INFO]:                   |___/            
+[13:07:56] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.21
+[13:07:56] [Server thread/INFO]:  
+[13:07:58] [Server thread/INFO]: [nLogin] Generating RSA keypair... (this may take a while)
+[13:07:59] [Server thread/INFO]: [nLogin] The RSA key pair was successfully generated. Took 1.61s
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Enabling ExcellentEnchants v4.3.3
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Powered by nightcore
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Loaded 4 rarities.
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: auto_reel
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: double_catch
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: seasoned_angler
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: survivalist
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: curse_of_drowned
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: river_master
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: blast_mining
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: curse_of_breaking
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: curse_of_misfortune
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: divine_touch
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: haste
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: lucky_miner
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: replanter
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: silk_chest
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: smelter
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: telekinesis
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: treasure_hunter
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: tunnel
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: veinminer
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: bane_of_netherspawn
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: blindness
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: confusion
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: cutter
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: curse_of_death
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: decapitator
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: double_strike
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: exhaust
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: exp_hunter
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: ice_aspect
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: infernus
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: nimble
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: paralyze
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: cure
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: rage
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: rocket
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: scavenger
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: surprise
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: swiper
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: temper
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: thrifty
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: thunder
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: vampire
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: venom
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: village_defender
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: wither
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: aquaman
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: bunny_hop
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: cold_steel
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: ice_shield
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: elemental_protection
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: fire_shield
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: flame_walker
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: hardened
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: night_vision
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: regrowth
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: saturation
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: self_destruction
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: rebound
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: stopping_force
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: sonic
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: bomber
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: confusing_arrows
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: dragonfire_arrows
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: electrified_arrows
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: ender_bow
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: explosive_arrows
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: lingering
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: flare
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: ghast
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: hover
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: sniper
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: poisoned_arrows
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: vampiric_arrows
+[13:08:00] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: withered_arrows
+[13:08:01] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: darkness_arrows
+[13:08:01] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: darkness_cloak
+[13:08:01] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: curse_of_fragility
+[13:08:01] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: curse_of_mediocrity
+[13:08:01] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: soulbound
+[13:08:01] [Server thread/INFO]: [ExcellentEnchants] Registered enchantment: restore
+[13:08:01] [Server thread/INFO]: [ExcellentEnchants] Enchantments Registered: 80
+[13:08:01] [Server thread/INFO]: [ExcellentEnchants] Plugin loaded in 840 ms!
+[13:08:01] [Server thread/INFO]: [RealisticSurvival] Enabling RealisticSurvival v1.2.9-RELEASE
+[13:08:02] [Server thread/INFO]: [RealisticSurvival] §6[Realistic Survival] §fInitializing §eIceandFire §fmodule
+[13:08:04] [Server thread/INFO]: [RealisticSurvival] §6[Realistic Survival] §fInitializing §eSpartanWeaponry §fmodule
+[13:08:05] [Server thread/INFO]: [RealisticSurvival] §6[Realistic Survival] §fInitializing §eBaubles §fmodule
+[13:08:06] [Server thread/INFO]: [RealisticSurvival] §6[Realistic Survival] §fInitializing §eNoTreePunching §fmodule
+[13:08:07] [Server thread/INFO]: [RealisticSurvival] §6[Realistic Survival] §fInitializing §eSpartanandFire §fmodule
+[13:08:08] [Server thread/INFO]: [RealisticSurvival] §6[Realistic Survival] §fInitializing §eToughAsNails §fmodule
+[13:08:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:08:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:08:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:08:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:08:08] [Server thread/INFO]: Preparing level "world"
+[13:08:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:08:26] [Server thread/INFO]: Preparing spawn area: 2%
+[13:08:27] [Server thread/INFO]: Preparing spawn area: 2%
+[13:08:27] [Server thread/INFO]: Preparing spawn area: 2%
+[13:08:28] [Server thread/INFO]: Preparing spawn area: 2%
+[13:08:28] [Server thread/INFO]: Preparing spawn area: 2%
+[13:08:29] [Server thread/INFO]: Preparing spawn area: 2%
+[13:08:29] [Server thread/INFO]: Preparing spawn area: 14%
+[13:08:30] [Server thread/INFO]: Preparing spawn area: 14%
+[13:08:30] [Server thread/INFO]: Preparing spawn area: 14%
+[13:08:31] [Server thread/INFO]: Preparing spawn area: 18%
+[13:08:31] [Server thread/INFO]: Preparing spawn area: 18%
+[13:08:32] [Server thread/INFO]: Preparing spawn area: 18%
+[13:08:32] [Server thread/INFO]: Preparing spawn area: 18%
+[13:08:33] [Server thread/INFO]: Preparing spawn area: 18%
+[13:08:33] [Server thread/INFO]: Preparing spawn area: 26%
+[13:08:34] [Server thread/INFO]: Preparing spawn area: 34%
+[13:08:34] [Server thread/INFO]: Preparing spawn area: 51%
+[13:08:35] [Server thread/INFO]: Preparing spawn area: 51%
+[13:08:35] [Server thread/INFO]: Preparing spawn area: 61%
+[13:08:36] [Server thread/INFO]: Preparing spawn area: 61%
+[13:08:36] [Server thread/INFO]: Preparing spawn area: 61%
+[13:08:36] [Server thread/INFO]: Time elapsed: 10321 ms
+[13:08:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:08:36] [Server thread/INFO]: Preparing spawn area: 2%
+[13:08:37] [Server thread/INFO]: Preparing spawn area: 2%
+[13:08:37] [Server thread/INFO]: Preparing spawn area: 18%
+[13:08:38] [Server thread/INFO]: Preparing spawn area: 26%
+[13:08:38] [Server thread/INFO]: Preparing spawn area: 26%
+[13:08:39] [Server thread/INFO]: Preparing spawn area: 51%
+[13:08:39] [Server thread/INFO]: Time elapsed: 2975 ms
+[13:08:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:08:39] [Server thread/INFO]: Preparing spawn area: 2%
+[13:08:40] [Server thread/INFO]: Preparing spawn area: 18%
+[13:08:41] [Server thread/INFO]: Preparing spawn area: 18%
+[13:08:41] [Server thread/INFO]: Time elapsed: 1305 ms
+[13:08:41] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.1
+[13:08:41] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[13:08:41] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.2.1
+[13:08:41] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13+82fdc65
+[13:08:41] [Server thread/INFO]: [WorldGuard] Default configuration file written: config.yml
+[13:08:41] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[13:08:41] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[13:08:41] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[13:08:41] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[13:08:41] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[13:08:41] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[13:08:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[13:08:41] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[13:08:41] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[13:08:41] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[13:08:41] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[13:08:41] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[13:08:41] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[13:08:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[13:08:41] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[13:08:41] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[13:08:41] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[13:08:41] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[13:08:41] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[13:08:41] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[13:08:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[13:08:41] [Server thread/INFO]: [WorldGuard] Loading region data...
+[13:08:41] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
+[13:08:41] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
+[13:08:41] [Server thread/INFO]: [WorldGuard] Loading region data...
+[13:08:41] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
+[13:08:41] [Server thread/INFO]: [packetevents] Enabling packetevents v2.7.0
+[13:08:41] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[13:08:41] [Server thread/INFO]: [TreeAssist] Enabling TreeAssist v7.3.63
+[13:08:41] [Server thread/INFO]: [TreeAssist] sending full Metrics! You can deactivate this in the config.yml
+[13:08:41] [Server thread/INFO]: [TreeAssist] debugging: off
+[13:08:41] [Server thread/INFO]: [HORRORMC] Enabling HorrorMinecraft v2.9.6
+[13:08:41] [Thread-19/INFO]: [TreeAssist] Checking for updates...
+[13:08:41] [Server thread/INFO]: [HORRORMC]                  ___-----------___
+[13:08:41] [Server thread/INFO]: [HORRORMC]            __--~~                 ~~--__
+[13:08:41] [Server thread/INFO]: [HORRORMC]        _-~~                             ~~-_
+[13:08:41] [Server thread/INFO]: [HORRORMC]     _-~                                     ~-_
+[13:08:41] [Server thread/INFO]: [HORRORMC]    /                                           \
+[13:08:41] [Server thread/INFO]: [HORRORMC]   |                                             |
+[13:08:41] [Server thread/INFO]: [HORRORMC]  |                                               |
+[13:08:41] [Server thread/INFO]: [HORRORMC]  |                                               |
+[13:08:41] [Server thread/INFO]: [HORRORMC] |                                                 |
+[13:08:41] [Server thread/INFO]: [HORRORMC] |                                                 |
+[13:08:41] [Server thread/INFO]: [HORRORMC] |                                                 |
+[13:08:41] [Server thread/INFO]: [HORRORMC]  |                                               |
+[13:08:41] [Server thread/INFO]: [HORRORMC]  |  |    _-------_               _-------_    |  |
+[13:08:41] [Server thread/INFO]: [HORRORMC]  |  |  /~         ~\           /~         ~\  |  |
+[13:08:41] [Server thread/INFO]: [HORRORMC]   ||  |             |         |             |  ||
+[13:08:41] [Server thread/INFO]: [HORRORMC]   || |               |       |               | ||
+[13:08:41] [Server thread/INFO]: [HORRORMC]   || |              |         |              | ||
+[13:08:41] [Server thread/INFO]: [HORRORMC]   |   \_           /           \           _/   |
+[13:08:41] [Server thread/INFO]: [HORRORMC]  |      ~~--_____-~    /~V~\    ~-_____--~~      |
+[13:08:41] [Server thread/INFO]: [HORRORMC]  |                    |     |                    |
+[13:08:41] [Server thread/INFO]: [HORRORMC] |                    |       |                    |
+[13:08:41] [Server thread/INFO]: [HORRORMC] |                    |  /^\  |                    |
+[13:08:41] [Server thread/INFO]: [HORRORMC]  |                    ~~   ~~                    |
+[13:08:41] [Server thread/INFO]: [HORRORMC]   \_         _                       _         _/
+[13:08:41] [Server thread/INFO]: [HORRORMC]     ~--____-~ ~\                   /~ ~-____--~
+[13:08:41] [Server thread/INFO]: [HORRORMC]          \     /\                 /\     /
+[13:08:41] [Server thread/INFO]: [HORRORMC]           \    | ( ,           , ) |    /
+[13:08:41] [Server thread/INFO]: [HORRORMC]            |   | (~(__(  |  )__)~) |   |
+[13:08:41] [Server thread/INFO]: [HORRORMC]             |   \/ (  (~~|~~)  ) \/   |
+[13:08:41] [Server thread/INFO]: [HORRORMC]              |   |  [ [  |  ] ]  /   |
+[13:08:41] [Server thread/INFO]: [HORRORMC]               |                     |
+[13:08:41] [Server thread/INFO]: [HORRORMC]                \                   /
+[13:08:41] [Server thread/INFO]: [HORRORMC]                 ~-_             _-~
+[13:08:41] [Server thread/INFO]: [HORRORMC]                    ~--___-___--~
+[13:08:41] [Server thread/INFO]: [HORRORMC] Version: 2.9.6
+[13:08:41] [Server thread/INFO]: [HORRORMC] Author: [Francies]
+[13:08:41] [Server thread/INFO]: [HORRORMC] Using Citizens for Herobrine.
+[13:08:41] [Server thread/INFO]: [HORRORMC] Using Citizens for Herobrine.
+[13:08:41] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+[13:08:41] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@27074ff
+[13:08:41] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[13:08:41] [Server thread/INFO]: [ServersNPC] Enabling ServersNPC v5.0
+[13:08:42] [Server thread/INFO]: [IronElevators] Enabling IronElevators v1.6.3
+[13:08:42] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.7.0)
+[13:08:43] [Server thread/INFO]: [DisableEnd] Enabling DisableEnd v1.0-SNAPSHOT
+[13:08:43] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+180-fe27182
+[13:08:43] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
+[13:08:43] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
+[13:08:43] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[13:08:43] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
+[13:08:43] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[13:08:43] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[13:08:43] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[13:08:43] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[13:08:43] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[13:08:43] [Server thread/INFO]: [Essentials] Done converting random teleport config.
+[13:08:43] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[13:08:43] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected Reflection Spawner Block Provider as the provider for SpawnerBlockProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[13:08:43] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[13:08:44] [Server thread/INFO]: [Essentials] Loaded 43465 items from items.json.
+[13:08:44] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[13:08:44] [Server thread/INFO]: [Essentials] Using locale en
+[13:08:44] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:08:44] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:08:44] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[13:08:44] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[13:08:44] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[13:08:44] [Server thread/INFO]: [PurpurExtras] Enabling PurpurExtras v1.34.5
+[13:08:44] [Server thread/INFO]: [org.purpurmc.purpurextras.reflections.Reflections] Reflections took 91 ms to scan 1 urls, producing 3 keys and 73 values
+[13:08:44] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v1.7.8
+[13:08:44] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
+[13:08:44] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
+[13:08:44] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
+[13:08:44] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
+[13:08:44] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
+[13:08:44] [Server thread/INFO]: [BetterStructures] Initialized version 1.7.8!
+[13:08:44] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 51 ms to scan 1 urls, producing 1 keys and 5 values
+[13:08:45] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 9 ms to scan 1 urls, producing 1 keys and 29 values
+[13:08:45] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[13:08:45] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 8 values
+[13:08:45] [Server thread/INFO]: [Images] Enabling Images v2.5.3
+[13:08:45] [Server thread/INFO]: [Images] ProtocolLib detected. Enabling generic packet handling...
+[13:08:45] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[13:08:45] [Server thread/INFO]: [InfernalMobs] Enabling InfernalMobs v6.8
+[13:08:45] [Server thread/INFO]: [InfernalMobs] Registered Events.
+[13:08:45] [Server thread/INFO]: [InfernalMobs] No config.yml found, generating...
+[13:08:45] [Server thread/INFO]: [InfernalMobs] Config successfully generated!
+[13:08:45] [Server thread/INFO]: [InfernalMobs] No loot.yml found, generating...
+[13:08:45] [Server thread/INFO]: [InfernalMobs] 1.21.4-2398-196c176 (MC: 1.21.4) Loot successfully generated!
+[13:08:45] [Server thread/INFO]: [spark] Starting background profiler...
+[13:08:46] [Server thread/INFO]: Done preparing level "world" (38.106s)
+[13:08:46] [Server thread/INFO]: Running delayed init tasks
+[13:08:46] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[13:08:46] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[13:08:46] [Craft Scheduler Thread - 4 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[13:08:46] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
+[13:08:46] [Craft Scheduler Thread - 7 - RealisticSurvival/INFO]: [RealisticSurvival] §fYou are running the latest version
+[13:08:46] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Latest public release is 1.7.8
+[13:08:46] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] Your version is 1.7.8
+[13:08:46] [Craft Scheduler Thread - 9 - BetterStructures/INFO]: [BetterStructures] You are running the latest version!
+[13:08:46] [Server thread/INFO]: §a[Oh The Dungeons Youll Go] Loading PerPlayerDungeonInstance...
+[13:08:46] [Server thread/INFO]: [Oh_the_dungeons_youll_go] §9[Oh The Dungeons You'll Go] Create PerPlayerDungeonInstance Task Pool Successful
+[13:08:46] [Server thread/INFO]: §c[Oh The Dungeons You'll Go] Vault is not installed. Economy function is disabled
+[13:08:48] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key not set, generate claim code: a688a65cc9fa5bec
+[13:08:48] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:08:49] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:08:52] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:08:52] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:08:55] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:08:55] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:08:58] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:08:59] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:09:02] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:09:02] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:09:04] [Server thread/INFO]: Preparing start region for dimension minecraft:otd_dungeon
+[13:09:04] [Server thread/INFO]: Preparing spawn area: 100%
+[13:09:04] [Server thread/INFO]: Time elapsed: 5 ms
+[13:09:04] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[13:09:04] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[13:09:04] [Server thread/INFO]: [WorldGuard] (otd_dungeon) TNT ignition is PERMITTED.
+[13:09:04] [Server thread/INFO]: [WorldGuard] (otd_dungeon) Lighters are PERMITTED.
+[13:09:04] [Server thread/INFO]: [WorldGuard] (otd_dungeon) Lava fire is PERMITTED.
+[13:09:04] [Server thread/INFO]: [WorldGuard] (otd_dungeon) Fire spread is UNRESTRICTED.
+[13:09:04] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'otd_dungeon'
+[13:09:04] [Server thread/INFO]: Done (135.623s)! For help, type "help"
+[13:09:04] [Server thread/INFO]: *************************************************************************************
+[13:09:04] [Server thread/INFO]: This is the first time you're starting this server.
+[13:09:04] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[13:09:04] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[13:09:04] [Server thread/INFO]: *************************************************************************************
+[13:09:04] [Server thread/INFO]: §9   ___   _            _______ _                  .___                                           
+[13:09:04] [Server thread/INFO]: §9 .'   `. /           '   /    /        ___       /   `  ,   . , __     ___.   ___    __.  , __  
+[13:09:04] [Server thread/INFO]: §9 |     | |,---.          |    |,---. .'   `      |    | |   | |'  `. .'   ` .'   ` .'   \ |'  `.
+[13:09:04] [Server thread/INFO]: §9 |     | |'   `          |    |'   ` |----'      |    | |   | |    | |    | |----' |    | |    |
+[13:09:04] [Server thread/INFO]: §9  `.__.' /    |          /    /    | `.___,      /---/  `._/| /    |  `---| `.___,  `._.' /    |
+[13:09:04] [Server thread/INFO]: §9                                                                      \___/                     
+[13:09:04] [Server thread/INFO]: §c[Oh The Dungeons Youll Go] PlaceHolderAPI not installed, all placeholders are disabled
+[13:09:04] [Server thread/INFO]: §c[Oh The Dungeons Youll Go] MythicMobs not installed, will disable MythicMobs related features
+[13:09:04] [Server thread/INFO]: §c[Oh The Dungeons Youll Go] EcoBosses not installed, will disable BossPlugin EcoBosses features
+[13:09:05] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:09:05] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:09:06] [Craft Scheduler Thread - 4 - Images/INFO]: [Images] Loaded 0 images...
+[13:09:07] [Server thread/INFO]: [HORRORMC] Database connection successful, logging commands...
+[13:09:08] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:09:09] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:09:09] [Server thread/INFO]: 
+[13:09:09] [Server thread/INFO]:  Thank you so much for choosing nLogin! <3
+[13:09:09] [Server thread/INFO]: 
+[13:09:09] [Server thread/INFO]:  For your safety, please read the message below:
+[13:09:09] [Server thread/INFO]:   Never download nLogin from unknown sources.
+[13:09:09] [Server thread/INFO]:   A modified version may contain malicious software.
+[13:09:09] [Server thread/INFO]: 
+[13:09:09] [Server thread/INFO]:  Trusted sources:
+[13:09:09] [Server thread/INFO]:   www.nickuc.com
+[13:09:09] [Server thread/INFO]:   www.github.com/nickuc
+[13:09:09] [Server thread/INFO]:   OpeNLogin installer (from Spigot or GitHub)
+[13:09:09] [Server thread/INFO]: 
+[13:09:09] [Server thread/INFO]:  Official support channels:
+[13:09:09] [Server thread/INFO]:   Discord group: www.nickuc.com/discord
+[13:09:09] [Server thread/INFO]:   Documentation: docs.nickuc.com/nlogin/
+[13:09:09] [Server thread/INFO]:   Email: support@nickuc.com
+[13:09:09] [Server thread/INFO]:   YouTube: youtube.com/nickuc
+[13:09:09] [Server thread/INFO]: 
+[13:09:09] [Server thread/INFO]:  To remove this warning, log in with "nlogin.admin" permission on the server
+[13:09:09] [Server thread/INFO]:  and click the "Setup plugin" button to configure your plugin.
+[13:09:09] [Server thread/INFO]: 
+[13:09:12] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:09:12] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:09:15] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:09:15] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:09:18] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:09:18] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:09:21] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:09:22] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:09:25] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:09:25] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:09:28] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:09:28] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:09:31] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:09:32] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:09:35] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:09:35] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:09:38] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:09:38] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] failed to exchange, to claim visit: https://playit.gg/mc/a688a65cc9fa5bec
+[13:09:41] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] trying to exchange claim code for secret
+[13:09:42] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[13:09:43] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] create new minecraft java tunnel
+[13:09:56] [Thread-20/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: am-electoral.joinmc.link
+[13:09:56] [Thread-20/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[13:09:56] [Thread-20/INFO]: playit.gg: WARNING:  plugin is running with a guest account
+[13:09:56] [Thread-20/INFO]: playit.gg: see server console for setup URL
+[13:09:57] [Thread-20/INFO]: [gg.playit.minecraft.PlayitManager] setup playit.gg account: https://playit.gg/login/guest-account/000100000000000000000010bc6167bdc125010000000002c37fc12e5d2032da13bf840f5de9e847048a5a5411a9273963080090a5591bad
+[13:09:57] [Thread-20/INFO]: playit.gg: tunnel setup
+[13:09:57] [Thread-20/INFO]: playit.gg: am-electoral.joinmc.link
+[13:09:57] [Thread-20/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[13:09:58] [Thread-20/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[13:10:31] [Thread-20/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:44672, peerAddr=104.28.243.55:18027, claimAddress=209.25.142.2:43789, claimToken=[44, 0, 60, -109, -71, -35, -62, -82, -128, 104, 28, -13, 55, 70, 107, 124, 127, 73, -67, -85, 13, 103, -67, -63, 71, 0, 0, 0, 0, 0, 16, -68, 97, 0, 0, 0, 0, 0, 63, -82, 80, -122, -67, -85, 13, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 118, -3, 108, 34, 59, 77, 97, -57, 113, -59, -57, -56, -101, -96, 66, -92], tunnelServerId=1, dataCenterId=40}
+[13:10:31] [Thread-20/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[13:10:31] [Thread-20/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:43789 to claim client
+[13:10:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[13:10:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[13:10:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[13:10:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[13:10:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[13:10:31] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[13:10:31] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[13:10:34] [User Authenticator #0/INFO]: UUID of player Pekora_UwU is 2ba9f7b0-1af9-3ae7-9172-6c0ec42ae8de
+[13:10:37] [Server thread/INFO]: Pekora_UwU[/127.0.0.1:55414] logged in with entity id 21 at ([world]11.5, 63.0, -49.5)
+[13:10:37] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
+[13:10:46] [Server thread/WARN]: [HORRORMC] Task #376 for HorrorMinecraft v2.9.6 generated an exception
+java.lang.NoClassDefFoundError: net/citizensnpcs/api/CitizensAPI
+	at HorrorMinecraft-2.9.6.jar/dev.francies.horrorMinecraft.herobrine.HerobrineSpawnManagerCitizens.spawnHerobrineAtLocation(HerobrineSpawnManagerCitizens.java:57) ~[HorrorMinecraft-2.9.6.jar:?]
+	at HorrorMinecraft-2.9.6.jar/dev.francies.horrorMinecraft.herobrine.HerobrineTask.run(HerobrineTask.java:81) ~[HorrorMinecraft-2.9.6.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[purpur-1.21.4.jar:1.21.4-2398-196c176]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[purpur-1.21.4.jar:1.21.4-2398-196c176]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1705) ~[purpur-1.21.4.jar:1.21.4-2398-196c176]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1575) ~[purpur-1.21.4.jar:1.21.4-2398-196c176]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[purpur-1.21.4.jar:1.21.4-2398-196c176]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:313) ~[purpur-1.21.4.jar:1.21.4-2398-196c176]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.citizensnpcs.api.CitizensAPI
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:197) ~[purpur-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:164) ~[purpur-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 9 more
+[13:11:14] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user Pekora_UwU has successfully registered.
+[13:11:27] [Server thread/INFO]: ℹ Server Plugins (25):
+[13:11:27] [Server thread/INFO]: Paper Plugins (0):
+[13:11:27] [Server thread/INFO]: Bukkit Plugins (25):
+[13:11:28] [Server thread/INFO]:  - BetterStructures, DisableEnd, Essentials, ExcellentEnchants, FastAsyncWorldEdit, HorrorMinecraft, Images, InfernalMobs, IronElevators, LuckPerms
+[13:11:28] [Server thread/INFO]:  Lunamatic, nightcore, nLogin, Oh_the_dungeons_youll_go, packetevents, playit-gg, ProtocolLib, PurpurExtras, RealisticSurvival, ServersNPC
+[13:11:28] [Server thread/INFO]:  SkinsRestorer, TreeAssist, ViaBackwards, ViaVersion, WorldGuard
+[13:13:29] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[13:13:29] [Server thread/INFO]: Pekora_UwU lost connection: Disconnected
+[13:14:01] [Thread-20/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:16:24] [Server thread/INFO]: Stopping the server
+[13:16:24] [Server thread/INFO]: Stopping server
+[13:16:24] [Server thread/INFO]: [RealisticSurvival] Disabling RealisticSurvival v1.2.9-RELEASE
+[13:16:24] [Server thread/INFO]: [RealisticSurvival] §6[Realistic Survival] §fShutting down §eIceandFire §fmodule
+[13:16:24] [Server thread/INFO]: [RealisticSurvival] §6[Realistic Survival] §fShutting down §eToughAsNails §fmodule
+[13:16:24] [Server thread/INFO]: [RealisticSurvival] §6[Realistic Survival] §fShutting down §eSpartanandFire §fmodule
+[13:16:24] [Server thread/INFO]: [RealisticSurvival] §6[Realistic Survival] §fShutting down §eNoTreePunching §fmodule
+[13:16:24] [Server thread/INFO]: [RealisticSurvival] §6[Realistic Survival] §fShutting down §eBaubles §fmodule
+[13:16:24] [Server thread/INFO]: [RealisticSurvival] §6[Realistic Survival] §fShutting down §eSpartanWeaponry §fmodule
+[13:16:24] [Server thread/INFO]: [InfernalMobs] Disabling InfernalMobs v6.8
+[13:16:24] [Server thread/INFO]: [ExcellentEnchants] Disabling ExcellentEnchants v4.3.3
+[13:16:24] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[13:16:24] [Server thread/INFO]: [Images] Disabling Images v2.5.3
+[13:16:24] [Server thread/INFO]: [BetterStructures] Disabling BetterStructures v1.7.8
+[13:16:24] [Server thread/INFO]: [BetterStructures] Shutdown!
+[13:16:24] [Server thread/INFO]: [PurpurExtras] Disabling PurpurExtras v1.34.5
+[13:16:24] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.0-dev+180-fe27182
+[13:16:24] [Server thread/INFO]: [nLogin] Disabling nLogin v10.4.21
+[13:16:24] [Server thread/INFO]: [nLogin] Successful plugin core shutdown (took 0.00s)
+[13:16:24] [Server thread/INFO]: [DisableEnd] Disabling DisableEnd v1.0-SNAPSHOT
+[13:16:24] [Server thread/INFO]: [IronElevators] Disabling IronElevators v1.6.3
+[13:16:24] [Server thread/INFO]: [Oh_the_dungeons_youll_go] Disabling Oh_the_dungeons_youll_go v1.21.4
+[13:16:24] [Server thread/WARN]: [Oh The Dungeons You'll Go] Plugin is disabled
+[13:16:24] [Server thread/INFO]: [ServersNPC] Disabling ServersNPC v5.0
+[13:16:24] [Server thread/INFO]: [HORRORMC] Disabling HorrorMinecraft v2.9.6
+[13:16:24] [Server thread/INFO]: [TreeAssist] Disabling TreeAssist v7.3.63
+[13:16:24] [Server thread/INFO]: [Lunamatic] Disabling Lunamatic v1.2.3
+[13:16:24] [Server thread/WARN]: [Lunamatic] Lunamatic has been disabled.
+[13:16:24] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.3
+[13:16:24] [Server thread/INFO]: [nightcore] Disabling nightcore v2.7.3.4
+[13:16:24] [Server thread/INFO]: [packetevents] Disabling packetevents v2.7.0
+[13:16:24] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.156
+[13:16:24] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[13:16:24] [Server thread/INFO]: [LuckPerms] Closing storage...
+[13:16:24] [Server thread/INFO]: [LuckPerms] Goodbye!
+[13:16:24] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13+82fdc65
+[13:16:24] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[13:16:24] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.2.1
+[13:16:24] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0-SNAPSHOT-741
+[13:16:24] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.12.3
+[13:16:24] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[13:16:24] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.1
+[13:16:24] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[13:16:24] [Server thread/INFO]: Saving players
+[13:16:24] [Server thread/INFO]: Saving worlds
+[13:16:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:16:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:16:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:16:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:16:25] [Thread-20/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Saved 534 block chunks, 476 entity chunks, 13 poi chunks in world 'world' in 1.31s
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[13:16:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Saved 793 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.34s
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[13:16:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.35s
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[13:16:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[otd_dungeon]'/minecraft:otd_dungeon
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'otd_dungeon'
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'otd_dungeon'
+[13:16:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'otd_dungeon'
+[13:16:27] [Server thread/INFO]: [ChunkHolderManager] Saved 720 block chunks, 0 entity chunks, 0 poi chunks in world 'otd_dungeon' in 0.30s
+[13:16:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'otd_dungeon'
+[13:16:27] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'otd_dungeon'
+[13:16:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:16:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:16:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:16:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (otd_dungeon): All chunks are saved
+[13:16:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:16:27] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[13:16:27] [Server thread/INFO]: All I/O tasks to complete
+[13:16:27] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[13:16:27] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
