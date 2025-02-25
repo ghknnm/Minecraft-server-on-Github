@@ -48,7 +48,7 @@ settings:
     beehive-lore:
       bees: '<reset><gray>Bees: <bees>/<maxbees>'
       honey: '<reset><gray>Honey level: <honey>/<maxhoney>'
-      enabled: false
+      enabled: true
   leash-snap:
     sound: minecraft:block.bamboo.break
     volume: 1.0
@@ -57,7 +57,7 @@ settings:
   totem:
     work-on-void-death: false
   blocks:
-    shift-right-click-for-invisible-item-frames: false
+    shift-right-click-for-invisible-item-frames: true
     chorus-flowers-always-drop: false
   protect-spawners:
     message: <red>Prevented you from breaking this block. Sneak to break it anyway.
