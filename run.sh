@@ -1,0 +1,1 @@
+java -Xms12G -jar purpur.jar
