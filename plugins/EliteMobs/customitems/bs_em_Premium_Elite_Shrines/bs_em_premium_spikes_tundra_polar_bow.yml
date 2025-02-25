@@ -1,0 +1,13 @@
+name: "&9Polar Bow"
+material: BOW
+lore:
+- "Found deep in the ice sheets"
+- "of the south pole"
+enchantments:
+- ARROW_DAMAGE,5
+- DURABILITY,3
+- ARROW_KNOCKBACK,2
+- ARROW_INFINITE,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

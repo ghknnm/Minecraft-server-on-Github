@@ -1,0 +1,12 @@
+name: "&2Soul Seeker"
+material: BOW
+lore:
+- "Forever hungry for its next victim..."
+enchantments:
+- ARROW_DAMAGE,5
+- ARROW_KNOCKBACK,2
+- ARROW_INFINITE,1
+- VANISHING_CURSE,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,25 @@
+entityType: WITCH
+name: $minibossLevel &6Deathlord
+level: dynamic
+healthMultiplier: 3
+damageMultiplier: 1
+isBaby: false
+powers:
+- bs_graveyard_desert_curse.yml
+- shield_wall.yml
+- flamethrower.yml
+- invulnerability_fire.yml
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: FLAME
+isRegionalBoss: true
+leashRadius: 15
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_graveyard_desert_vigilant_crossbow.yml
+  chance: 1
+spawnLocations:
+- world,-1219.5,155.0,-898.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

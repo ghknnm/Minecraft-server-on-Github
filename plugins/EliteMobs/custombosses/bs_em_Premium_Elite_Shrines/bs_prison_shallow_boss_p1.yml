@@ -1,0 +1,23 @@
+entityType: VINDICATOR
+name: $minibossLevel &dEarl of Envy
+level: dynamic
+phases:
+- bs_prison_shallow_boss_p2.yml:0.60
+healthMultiplier: 2
+damageMultiplier: 1
+mainHand: IRON_AXE
+powers:
+- fireworks_barrage.yml
+- arrow_rain.yml
+- attack_vacuum.yml
+normalizedCombat: true
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: CLOUD
+isRegionalBoss: true
+leashRadius: 35
+removeAfterDeath: true
+spawnLocations:
+- world,-685.5,145.0,-934.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

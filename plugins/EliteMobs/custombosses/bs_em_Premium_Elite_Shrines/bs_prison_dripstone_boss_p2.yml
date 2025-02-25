@@ -1,0 +1,35 @@
+entityType: ZOMBIE
+name: "$minibossLevel &2The Warden"
+level: dynamic
+phases:
+- bs_prison_dripstone_boss_p2.yml:0.60
+healthMultiplier: 3
+damageMultiplier: 2
+helmet: NETHERITE_HELMET
+chestplate: NETHERITE_CHESTPLATE
+leggings: NETHERITE_LEGGINGS
+boots: NETHERITE_BOOTS
+powers:
+- "bullet_hell.yml"
+- "fireworks_barrage.yml"
+- "zombie_bloat.yml"
+- "lightning_bolts.yml"
+- "bs_prison_dripstone_reinforcements.yml"
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: CLOUD
+isRegionalBoss: true
+leashRadius: 35
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_prison_dripstone_warden_helmet.yml
+  chance: 0.25
+- filename: bs_em_premium_prison_dripstone_warden_chestplate.yml
+  chance: 0.25
+- filename: bs_em_premium_prison_dripstone_warden_leggings.yml
+  chance: 0.25
+- filename: bs_em_premium_prison_dripstone_warden_boots.yml
+  chance: 0.25
+# Generated with https://magmaguy.com/webapp/webapp.html !

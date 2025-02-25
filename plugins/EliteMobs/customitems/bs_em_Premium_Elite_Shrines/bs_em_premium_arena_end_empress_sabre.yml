@@ -1,0 +1,11 @@
+name: "&dEmpress Sabre"
+material: IRON_SWORD
+lore:
+- "Property of the Ender Empress"
+enchantments:
+- DAMAGE_ALL,4
+- DURABILITY,3
+- KNOCKBACK,2
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

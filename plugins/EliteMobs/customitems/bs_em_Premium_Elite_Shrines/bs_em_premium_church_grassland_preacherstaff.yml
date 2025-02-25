@@ -1,0 +1,10 @@
+name: "&dPreacher's Staff"
+material: DIAMOND_SWORD
+lore:
+- "Strikes fear into the hearts of the unfaithful"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,3
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

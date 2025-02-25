@@ -1,0 +1,13 @@
+name: "&6Broomstick"
+material: WOODEN_SWORD
+lore:
+- "Possess the magical essence"
+- "of the Deathlord"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,3
+- FLAMETHROWER,1
+- VANISHING_CURSE,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

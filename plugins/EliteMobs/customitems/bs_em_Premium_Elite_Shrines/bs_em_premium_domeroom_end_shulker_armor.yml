@@ -1,0 +1,12 @@
+name: "&dShulker Armor"
+material: IRON_CHESTPLATE
+lore:
+- "Made from shulker shells"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- DURABILITY,3
+potionEffects:
+- LEVITATION,1,self,onHit
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

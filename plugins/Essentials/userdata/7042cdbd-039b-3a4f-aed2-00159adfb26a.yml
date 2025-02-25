@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1740504734701
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740505069932
+  login: 1740500567777
+money: '0'
+last-account-name: camapbonchan
+logoutlocation:
+  world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
+  world-name: world
+  x: 1677.5
+  y: 141.0
+  z: 1054.5
+  yaw: -94.3660888671875
+  pitch: 11.642799377441406
+lastlocation:
+  world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
+  world-name: world
+  x: 2104.445711191618
+  y: 68.0
+  z: 178.41909037824882
+  yaw: -147.94305419921875
+  pitch: -10.034255981445312

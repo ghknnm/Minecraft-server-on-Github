@@ -1,0 +1,15 @@
+name: "&2Emperor's Boots"
+material: DIAMOND_BOOTS
+lore:
+- "One of a kind gear that was once"
+- "worn by the Lost Emperor"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- PROTECTION_FALL,4
+- DURABILITY,3
+- VANISHING_CURSE,1
+potionEffects:
+- SPEED,0,self,continuous
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,13 @@
+name: "&2Wind Blower"
+material: IRON_SWORD
+lore:
+- "Summons the power of the wind"
+- "and blows the enemies out of your way"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,3
+- KNOCKBACK,2
+- VANISHING_CURSE,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

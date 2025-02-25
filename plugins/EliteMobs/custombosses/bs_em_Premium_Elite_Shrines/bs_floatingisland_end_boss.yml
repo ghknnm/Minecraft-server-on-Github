@@ -1,0 +1,26 @@
+entityType: ZOMBIE
+name: $minibossLevel &dMedusa
+level: dynamic
+healthMultiplier: 3
+damageMultiplier: 1.5
+powers:
+- bs_floatingisland_end_medusa.yml
+- arrow_rain.yml
+- attack_wither.yml
+- attack_fire.yml
+- invulnerability_knockback.yml
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: DRAGON_BREATH
+disguise: ENDERMAN
+isRegionalBoss: true
+leashRadius: 16
+movementSpeedAttribute: 0.3
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_floatingisland_end_medusa_hair.yml
+  chance: 1
+spawnLocations: []
+# Generated with https://magmaguy.com/webapp/webapp.html !

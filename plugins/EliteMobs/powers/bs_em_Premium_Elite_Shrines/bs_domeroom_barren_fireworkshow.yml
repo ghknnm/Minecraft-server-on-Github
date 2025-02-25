@@ -1,0 +1,66 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: CYLINDER
+      radius: 12
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 8,8,0
+    Actions:
+    - action: MESSAGE
+      sValue: "&2[boss] &f&rTime for a little show!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+    - action: SPAWN_FALLING_BLOCK
+      material: BARRIER
+      landingScripts:
+      - "firework"
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.01
+      repeatEvery: 30
+      times: 8
+      wait: 40
+    Cooldowns:
+      local: 800
+      global: 300
+
+  firework:
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      height: 2
+      Target:
+        targetType: LANDING_LOCATION
+    Actions:
+    - action: SPAWN_FIREWORKS
+      vValue: 0.1,0.1,0.1
+      power: 1
+      fireworkEffects:
+      - [GREEN]
+      fireworkEffectType: BALL
+      Target:
+        targetType: LANDING_LOCATION
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: VILLAGER_HAPPY
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 2
+      times: 5
+    - action: DAMAGE
+      multiplier: 1
+      Target:
+        targetType: ZONE_FULL
+    - action: POTION_EFFECT
+      potionEffectType: CONFUSION
+      amplifier: 1
+      duration: 100
+      Target:
+        targetType: ZONE_FULL
+# Generated with https://magmaguy.com/webapp/webapp.html !

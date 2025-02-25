@@ -1,0 +1,21 @@
+[2025/02/25 15:38:38]: §9          __             _       
+[2025/02/25 15:38:38]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/02/25 15:38:38]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/02/25 15:38:38]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/02/25 15:38:38]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/02/25 15:38:38]: §9                  |___/            
+[2025/02/25 15:38:38]: §9 By: www.nickuc.com - V 10.4.21
+[2025/02/25 15:38:38]: §9 
+[2025/02/25 15:38:39]: §3[nLogin] [DEBUG] All settings were loaded in 213 ms.
+[2025/02/25 15:38:39]: §3[nLogin] [DEBUG] Loading the messages_en.yml message file...
+[2025/02/25 15:38:39]: §3[nLogin] [DEBUG] All plugin messages were loaded in 53 ms (languageByClient=false).
+[2025/02/25 15:38:39]: §3[nLogin] [DEBUG] All proxy settings were loaded in 2 ms.
+[2025/02/25 15:38:39]: §3[nLogin] [DEBUG] Loading database...
+[2025/02/25 15:38:39]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/02/25 15:40:31]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('ghknnm_dll', 11ff752874113588952938bdd6c033ff, null, null, '$2a$10$L/PYAKMaJQZvyEBwUe.MMOTgWrLC2mNFimSb/OSET5rQfCslPy73i', '127.0.0.1', '2025-02-25 15:40:30.91', '2025-02-25 15:40:30.91', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2025/02/25 15:40:31]: [nLogin] The user ghknnm_dll has successfully registered.
+[2025/02/25 15:41:35]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('Sukuna', 4d64a59cfed933fa877d5cd882870273, null, null, '$2a$10$9o7K3Th8fDwR2IXtKa.XY.T6UtH.wAQwKQm0RgZmpcWIeWVKdxKPa', '127.0.0.1', '2025-02-25 15:41:35.812', '2025-02-25 15:41:35.812', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2025/02/25 15:41:35]: [nLogin] The user Sukuna has successfully registered.
+[2025/02/25 15:42:34]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('RyanRei_', 4a531ed059193701a87b9fd1d17a079c, null, null, '$2a$10$CT7jaKYYPjU7kCquwRP.duBmrshZ/fFCwkqHbuMPyPeyJiB3pVxOe', '127.0.0.1', '2025-02-25 15:42:34.672', '2025-02-25 15:42:34.672', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2025/02/25 15:42:34]: [nLogin] The user RyanRei_ has successfully registered.
+[2025/02/25 15:46:14]: [nLogin] Successful plugin core shutdown (took 0.00s)

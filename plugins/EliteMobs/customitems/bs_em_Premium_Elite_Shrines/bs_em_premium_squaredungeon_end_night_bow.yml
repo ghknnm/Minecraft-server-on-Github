@@ -1,0 +1,18 @@
+name: "&dNight Bow"
+material: BOW
+lore:
+- "Crafted under the light of a full moon"
+- "Holds immense power"
+enchantments:
+- ARROW_DAMAGE,5
+- DURABILITY,3
+- ARROW_KNOCKBACK,2
+- ARROW_INFINITE,1
+- VANISHING_CURSE,1
+potionEffects:
+- BLINDNESS,0,target,onHit
+- SLOW,1,self,onHit
+- NIGHT_VISION,1,self,continuous
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

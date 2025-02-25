@@ -1,0 +1,11 @@
+name: "&dTarsus's Leggings"
+material: DIAMOND_LEGGINGS
+lore:
+- "Crafted by the greatest blacksmiths"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,5
+- THORNS,3
+- DURABILITY,3
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,246 @@
+powerType: UNIQUE
+eliteScript:
+  TriggerManager:
+    Events:
+    - EliteMobDamagedByPlayerEvent      
+    Actions:
+    - action: TELEPORT
+      FinalTarget:
+        targetType: SELF_SPAWN
+        offset: 0,5,8
+      Target:
+        targetType: SELF
+    - action: PLACE_BLOCK
+      material: POLISHED_DIORITE_SLAB
+      duration: 160
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,3,8   
+    - action: SET_MOB_AI
+      bValue: false
+      duration: 160
+      Target:
+        targetType: SELF
+      wait: 10
+    - action: MESSAGE
+      sValue: "Do you smell that? Is something.... burning?"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 15
+    - action: TELEPORT
+      FinalTarget:
+        targetType: SELF_SPAWN
+      Target:
+        targetType: SELF
+      wait: 160
+    - action: RUN_SCRIPT
+      wait: 40
+      scripts:
+      - Cyl0
+      - Cyl1      
+      - Cyl2    
+      - Cyl3      
+      - Cyl4      
+      - Cyl5      
+      - Cyl6      
+      - Cyl7 
+      - Cyl8           
+      onlyRunOneScript: true     
+    - action: RUN_SCRIPT
+      wait: 40
+      scripts:
+      - Cyl0 
+      - Cyl1      
+      - Cyl2    
+      - Cyl3      
+      - Cyl4      
+      - Cyl5      
+      - Cyl6      
+      - Cyl7 
+      - Cyl8                
+      onlyRunOneScript: true   
+    Cooldowns:
+      local: 600
+      global: 300      
+      
+  Cyl0:    
+    Zone:
+      shape: CYLINDER
+      radius: 5
+      borderRadius: 4
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,8 
+    Actions:      
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 60
+      Target:
+        targetType: ZONE_BORDER
+      wait: 40
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        locationIsAir: true      
+  Cyl1:    
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      borderRadius: 5
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,8 
+    Actions:      
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 60
+      Target:
+        targetType: ZONE_BORDER
+      wait: 40
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        locationIsAir: true
+  Cyl2:  
+    Zone:
+      shape: CYLINDER
+      radius: 7
+      borderRadius: 6
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,8 
+    Actions:      
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 60
+      Target:
+        targetType: ZONE_BORDER
+      wait: 40
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        locationIsAir: true
+  Cyl3:    
+    Zone:
+      shape: CYLINDER
+      radius: 8
+      borderRadius: 7
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,8 
+    Actions:      
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 60
+      Target:
+        targetType: ZONE_BORDER
+      wait: 40
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        locationIsAir: true   
+  Cyl4:    
+    Zone:
+      shape: CYLINDER
+      radius: 9
+      borderRadius: 8
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,8 
+    Actions:      
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 60
+      Target:
+        targetType: ZONE_BORDER
+      wait: 40
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        locationIsAir: true   
+  Cyl5:    
+    Zone:
+      shape: CYLINDER
+      radius: 10
+      borderRadius: 9
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,8 
+    Actions:      
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 60
+      Target:
+        targetType: ZONE_BORDER
+      wait: 40
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        locationIsAir: true   
+  Cyl6:    
+    Zone:
+      shape: CYLINDER
+      radius: 11
+      borderRadius: 10
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,8 
+    Actions:      
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 60
+      Target:
+        targetType: ZONE_BORDER
+      wait: 40
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        locationIsAir: true   
+  Cyl7:    
+    Zone:
+      shape: CYLINDER
+      radius: 12
+      borderRadius: 11
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,8 
+    Actions:      
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 60
+      Target:
+        targetType: ZONE_BORDER
+      wait: 40
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        locationIsAir: true   
+  Cyl8:    
+    Zone:
+      shape: CYLINDER
+      radius: 13
+      borderRadius: 12
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,8 
+    Actions:      
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 60
+      Target:
+        targetType: ZONE_BORDER
+      wait: 40
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        locationIsAir: true      
+# Generated with https://magmaguy.com/webapp/webapp.html !

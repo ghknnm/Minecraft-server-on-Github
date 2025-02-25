@@ -1,0 +1,58 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: CUBOID
+      x: 35
+      y: 1
+      z: 24
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,10,0
+    Actions:
+    - action: SPAWN_FALLING_BLOCK
+      material: BARRIER
+      landingScripts:
+      - "fall"
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.02
+      wait: 40
+      repeatEvery: 20
+      times: 10
+    - action: MESSAGE
+      sValue: "&2[Boss] &f&rYou won't give up will you? Maybe this will motivate you... "
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    Cooldowns:
+      local: 800
+      global: 400
+
+  fall:
+    Zone:
+      shape: SPHERE
+      radius: 3
+      Target:
+        targetType: LANDING_LOCATION
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: LANDING_LOCATION
+    - action: DAMAGE
+      multiplier: 1
+      Target:
+        targetType: ZONE_FULL
+    - action: PLAY_SOUND
+      sValue: "entity.generic.explode"
+      Target:
+        targetType: LANDING_LOCATION
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_LARGE
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.35
+# Generated with https://magmaguy.com/webapp/webapp.html !

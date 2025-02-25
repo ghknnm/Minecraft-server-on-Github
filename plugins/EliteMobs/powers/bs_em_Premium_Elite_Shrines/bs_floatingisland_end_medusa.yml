@@ -1,0 +1,32 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: MESSAGE
+      sValue: "&5[Medusa]&f has looked at you in the eyes, you've been turned into stone!"
+      Target:
+        targetType: DIRECT_TARGET
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 10
+      duration: 200
+      Target:
+        targetType: DIRECT_TARGET
+    - action: POTION_EFFECT
+      potionEffectType: JUMP
+      amplifier: 200
+      duration: 200
+      Target:
+        targetType: DIRECT_TARGET
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 1
+      duration: 40
+      Target:
+        targetType: DIRECT_TARGET
+    Cooldowns:
+      local: 500
+      global: 300
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,16 @@
+name: "&cShadow Sabre"
+material: STONE_SWORD
+lore:
+- "Contains the powers of all the previous"
+- "victims that died to this weapon"
+enchantments:
+- DAMAGE_UNDEAD,5
+- LOOT_BONUS_MOBS,3
+- DURABILITY,3
+- SWEEPING_EDGE,3
+- VANISHING_CURSE,1
+potionEffects:
+- WITHER,1,target,onHit
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

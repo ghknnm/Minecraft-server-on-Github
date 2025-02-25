@@ -1,0 +1,11 @@
+name: "&dWither Arch"
+material: BOW
+lore:
+- "Imbued with the deadly power of the Nether"
+enchantments:
+- DAMAGE_ALL,5
+- FIRE_ASPECT,3
+- KNOCKBACK,2
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

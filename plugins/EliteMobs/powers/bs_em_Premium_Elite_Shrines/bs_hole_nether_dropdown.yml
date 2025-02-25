@@ -1,0 +1,459 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 100
+      scripts:
+      - "low1"
+    - action: RUN_SCRIPT
+      wait: 400
+      scripts:
+      - "low2"
+    - action: RUN_SCRIPT
+      wait: 700
+      scripts:
+      - "low3"
+    - action: RUN_SCRIPT
+      wait: 1000
+      scripts:
+      - "low4"      
+    Cooldowns:
+      local: 9999999
+      global: 400
+
+
+
+
+
+
+
+
+  low1:
+    Zone:
+      shape: CYLINDER
+      radius: 9
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+    Actions:
+    - action: PLACE_BLOCK
+      material: NETHER_BRICKS
+      Target:
+        targetType: ZONE_FULL
+        offset: 0,-2,0
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+        offset: 0,-1,0
+      
+      
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 8,-1,0
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: -8,-1,0
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-1,8
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-1,-8        
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,-1,6
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,-1,-6
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,-1,6
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,-1,-6        
+
+
+
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 8,0,0
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: -8,0,0
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,8
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,-8        
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,0,6
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,0,-6
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,0,6
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,0,-6  
+
+
+  low2:
+    Zone:
+      shape: CYLINDER
+      radius: 9
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+    Actions:
+    - action: PLACE_BLOCK
+      material: NETHER_BRICKS
+      Target:
+        targetType: ZONE_FULL
+        offset: 0,-3,0
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+        offset: 0,-2,0
+
+      
+      
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 8,-2,0
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: -8,-2,0
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-2,8
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-2,-8        
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,-2,6
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,-2,-6
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,-2,6
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,-2,-6        
+
+
+
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 8,-1,0
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: -8,-1,0
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-1,8
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-1,-8        
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,-1,6
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,-1,-6
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,-1,6
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,-1,-6  
+        
+        
+        
+  low3:
+    Zone:
+      shape: CYLINDER
+      radius: 9
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+    Actions:
+    - action: PLACE_BLOCK
+      material: NETHER_BRICKS
+      Target:
+        targetType: ZONE_FULL
+        offset: 0,-4,0
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+        offset: 0,-3,0
+      
+      
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 8,-3,0
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: -8,-3,0
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-3,8
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-3,-8        
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,-3,6
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,-3,-6
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,-3,6
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,-3,-6        
+
+
+
+
+      wait: 2
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 8,-2,0
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: -8,-2,0
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-2,8
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-2,-8        
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,-2,6
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,-2,-6
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,-2,6
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,-2,-6  
+        
+        
+        
+  low4:
+    Zone:
+      shape: CYLINDER
+      radius: 9
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+    Actions:
+    - action: PLACE_BLOCK
+      material: NETHER_BRICKS
+      Target:
+        targetType: ZONE_FULL
+        offset: 0,-5,0
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+        offset: 0,-4,0
+      
+      
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 8,-4,0
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: -8,-4,0
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-4,8
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-4,-8        
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,-4,6
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,-4,-6
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,-4,6
+    - action: PLACE_BLOCK
+      material: NETHER_BRICK_WALL
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,-4,-6        
+
+
+
+
+      wait: 2
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 8,-3,0
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: -8,-3,0
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-3,8
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-3,-8        
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,-3,6
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,-3,-6
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,-3,6
+    - action: PLACE_BLOCK
+      material: CHAIN
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,-3,-6
+# Generated with https://magmaguy.com/webapp/webapp.html !

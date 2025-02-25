@@ -1,0 +1,56 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: STATIC_RAY
+      Target2:
+        targetType: DIRECT_TARGET
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,24,0
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: DRAGON_BREATH
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 2
+      times: 100
+    - action: MESSAGE
+      sValue: "&d[Boss] &f&oHas used the power of the crystals."
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+    - action: PLAY_SOUND
+      sValue: "entity.ender_dragon.flap"
+      repeatEvery: 10
+      times: 20
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+    - action: POTION_EFFECT
+      potionEffectType: LEVITATION
+      amplifier: 1
+      duration: 200
+      Target:
+        targetType: DIRECT_TARGET
+      wait: 20
+    - action: POTION_EFFECT
+      potionEffectType: WEAKNESS
+      amplifier: 1
+      duration: 300
+      Target:
+        targetType: DIRECT_TARGET
+    - action: POTION_EFFECT
+      potionEffectType: POISON
+      amplifier: 1
+      duration: 160
+      Target:
+        targetType: DIRECT_TARGET
+    Cooldowns:
+      local: 700
+      global: 400
+# Generated with https://magmaguy.com/webapp/webapp.html !

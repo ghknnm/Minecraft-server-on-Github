@@ -1,0 +1,10 @@
+name: "&6Pyre Chestplate"
+material: GOLDEN_CHESTPLATE
+lore:
+- "Worn by the toughest of worriers"
+enchantments:
+- PROTECTION_FIRE,4
+- DURABILITY,3
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

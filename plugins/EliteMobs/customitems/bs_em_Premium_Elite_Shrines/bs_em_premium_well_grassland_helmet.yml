@@ -1,0 +1,13 @@
+name: "&dSummoner's Helmet"
+material: NETHERITE_HELMET
+lore:
+- "Perhaps getting hit is not a bad thing"
+- "after all..."
+enchantments:
+- PROTECTION_ENVIRONMENTAL,5
+- DURABILITY,3
+potionEffects:
+- INCREASE_DAMAGE,1,self,onHit
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

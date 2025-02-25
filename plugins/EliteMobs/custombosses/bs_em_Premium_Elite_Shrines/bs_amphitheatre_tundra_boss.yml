@@ -1,0 +1,25 @@
+entityType: VINDICATOR
+name: $minibossLevel &9Barron
+level: dynamic
+healthMultiplier: 2
+damageMultiplier: 1
+mainHand: IRON_AXE
+powers:
+- bs_amphitheatre_tundra_electricarrow.yml
+- attack_confusing.yml
+- attack_push.yml
+- thunderstorm.yml
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: SNOWFLAKE
+isRegionalBoss: true
+leashRadius: 16
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_amphitheatre_tundra_barron_cleaver.yml
+  chance: 1
+spawnLocations:
+- world,-1615.5,162.0,-307.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

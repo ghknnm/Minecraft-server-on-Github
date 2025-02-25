@@ -1,0 +1,47 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: SPHERE
+      radius: 15
+      Target:
+        targetType: SELF_SPAWN
+    Actions:
+    - action: MESSAGE
+      sValue: "&9[Boss]&f&o has enabled his prismarine rain ability. Cover your eyes! They're blinding!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+    - action: MESSAGE
+      sValue: "&9[Boss]&f&o has got a damage boost! Dodge its attacks till the prismarine rain stops!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SCRAPE
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.2
+      repeatEvery: 5
+      times: 40
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 1
+      duration: 200
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+      wait: 20
+    - action: MODIFY_DAMAGE
+      multiplier: 2
+      wait: 20
+    - action: MODIFY_DAMAGE
+      multiplier: 1
+      wait: 220
+    Cooldowns:
+      local: 600
+      global: 300
+# Generated with https://magmaguy.com/webapp/webapp.html !

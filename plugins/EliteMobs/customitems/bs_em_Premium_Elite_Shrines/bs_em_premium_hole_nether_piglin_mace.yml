@@ -1,0 +1,14 @@
+name: "&cPiglin Mace"
+material: GOLDEN_SWORD
+lore:
+- "Said to channel the furty of"
+- "the Nether into total destruction"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,3
+- SWEEPING_EDGE,3
+potionEffects:
+- WITHER,1,target,onHit
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

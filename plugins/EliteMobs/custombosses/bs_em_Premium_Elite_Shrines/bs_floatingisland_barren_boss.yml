@@ -1,0 +1,24 @@
+entityType: GOAT
+name: $minibossLevel &2Horned Horror
+level: dynamic
+healthMultiplier: 3
+damageMultiplier: 1
+powers:
+- bs_floatingisland_barren_poison.yml
+- attack_blinding.yml
+- ground_pound.yml
+- invulnerability_knockback.yml
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: CLOUD
+isRegionalBoss: true
+leashRadius: 16
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_floatingisland_barren_premium_shears.yml
+  chance: 1
+spawnLocations:
+- world,-1217.5,225.0,-960.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

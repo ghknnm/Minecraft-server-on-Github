@@ -1,0 +1,11 @@
+name: "&cHogsbane"
+material: GOLDEN_AXE
+lore:
+- "Once belonged to the Piglin Warlords"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,3
+- FIRE_ASPECT,2
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

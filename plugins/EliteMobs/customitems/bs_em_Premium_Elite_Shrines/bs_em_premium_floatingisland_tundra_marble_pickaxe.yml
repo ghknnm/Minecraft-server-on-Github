@@ -1,0 +1,12 @@
+name: "&9Marble Pickaxe"
+material: IRON_PICKAXE
+lore:
+- "Freezes whatever it touches"
+enchantments:
+- DIG_SPEED,5
+- DURABILITY,3
+- SILK_TOUCH,2
+- ICE_BREAKER,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

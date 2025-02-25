@@ -1,0 +1,10 @@
+name: "&dAlpaca Charm"
+material: LEATHER
+lore:
+- "Grants its bearer a gentle descent"
+- "through the air"
+potionEffects:
+- SLOW_FALLING,1,self,onHit
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

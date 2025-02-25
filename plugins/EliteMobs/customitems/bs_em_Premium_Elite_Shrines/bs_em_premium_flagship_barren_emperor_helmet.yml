@@ -1,0 +1,15 @@
+name: "&2Emperor's Helmet"
+material: DIAMOND_HELMET
+lore:
+- "One of a kind gear that was once"
+- "worn by the Lost Emperor"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- DURABILITY,3
+- OXYGEN,3
+- VANISHING_CURSE,1
+potionEffects:
+- DAMAGE_RESISTANCE,0,self,continuous
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

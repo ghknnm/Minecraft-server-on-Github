@@ -1,0 +1,31 @@
+entityType: ZOMBIE
+name: $bossLevel &5Nightstalker
+level: dynamic
+healthMultiplier: 3
+damageMultiplier: 1.5
+powers:
+- attack_gravity.yml
+- attack_push.yml
+- bullet_hell.yml
+- attack_lightning.yml
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: DRAGON_BREATH
+disguise: ENDERMAN
+movementSpeedAttribute: 0.3
+isRegionalBoss: true
+leashRadius: 20
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_flagship_end_miniboss2_night_cap.yml
+  chance: 1
+spawnLocations:
+- world,-1688.5,155.0,-641.5,0.0,0.0
+- world,-1800.5,213.0,-641.5,0.0,0.0
+- world,-1832.5,198.0,-817.5,0.0,0.0
+- world,-1288.5,156.0,622.5,0.0,0.0
+- world,-1192.5,176.0,-465.5,0.0,0.0
+- world,327.5,188.0,-1089.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

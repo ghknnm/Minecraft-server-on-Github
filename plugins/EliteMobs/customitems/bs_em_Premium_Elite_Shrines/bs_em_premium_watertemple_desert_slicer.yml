@@ -1,0 +1,11 @@
+name: "&6Slicer"
+material: IRON_SWORD
+lore:
+- "Made from anglerfish teeth"
+enchantments:
+- DAMAGE_ALL,4
+- SWEEPING_EDGE,3
+- DURABILITY,3
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

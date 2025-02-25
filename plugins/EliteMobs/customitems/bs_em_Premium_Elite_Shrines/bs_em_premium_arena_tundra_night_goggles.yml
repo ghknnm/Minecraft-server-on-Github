@@ -1,0 +1,14 @@
+name: "&9Night Goggles"
+material: IRON_HELMET
+lore:
+- "Will come in handy when"
+- "the wind blows out the candles!"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- DURABILITY,3
+- VANISHING_CURSE,1
+potionEffects:
+- NIGHT_VISION,1,self,continuous
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

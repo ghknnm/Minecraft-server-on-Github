@@ -1,0 +1,12 @@
+name: "&dBroadaxe"
+material: IRON_AXE
+lore:
+- "Tempered with steel"
+enchantments:
+- DAMAGE_ALL,4
+- DURABILITY,3
+- SWEEPING_EDGE,3
+- LOOT_BONUS_MOBS,2
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

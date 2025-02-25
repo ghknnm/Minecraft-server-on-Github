@@ -1,0 +1,24 @@
+entityType: WITCH
+name: $minibossLevel &9Sage
+level: dynamic
+healthMultiplier: 3
+damageMultiplier: 2
+powers:
+- bs_tower_tundra_lightsoff.yml
+- arrow_fireworks.yml
+- attack_lightning.yml
+- attack_push.yml
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: SNOWFLAKE
+isRegionalBoss: true
+leashRadius: 15
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_tower_tundra_frozen_staff.yml
+  chance: 1
+spawnLocations:
+- world,487.5,186.0,-1199.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

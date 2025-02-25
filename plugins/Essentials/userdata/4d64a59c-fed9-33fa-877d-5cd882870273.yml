@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1740505983963
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740507873689
+  login: 1740505528427
+money: '0'
+last-account-name: Sukuna
+logoutlocation:
+  world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
+  world-name: world
+  x: 1306.2469527868998
+  y: 63.84375002384186
+  z: 1977.1139539384753
+  yaw: 36.490047454833984
+  pitch: 15.286657333374023
+lastlocation:
+  world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
+  world-name: world
+  x: 1729.271402587691
+  y: 70.0
+  z: 960.7579952897296
+  yaw: 127.51509094238281
+  pitch: 21.794544219970703
+homes:
+  home:
+    world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
+    world-name: world
+    x: 1675.949999988079
+    y: 141.0
+    z: 1052.6224995346613
+    yaw: -106.04327392578125
+    pitch: 9.423657417297363

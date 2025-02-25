@@ -1,0 +1,15 @@
+name: "&2Lost Battle Axe"
+material: DIAMOND_AXE
+lore:
+- "One of a kind gear that was once"
+- "held by the Lost Emperor"
+enchantments:
+- DAMAGE_ALL,4
+- DURABILITY,3
+- SWEEPING_EDGE,3
+- LOOT_BONUS_MOBS,3
+- FIRE_ASPECT,2
+- VANISHING_CURSE,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

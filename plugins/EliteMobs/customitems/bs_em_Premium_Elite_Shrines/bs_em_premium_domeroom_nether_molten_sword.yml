@@ -1,0 +1,12 @@
+name: "&cMolten Sword"
+material: GOLDEN_SWORD
+lore:
+- "Was put on the forge for a bit too long"
+enchantments:
+- DAMAGE_UNDEAD,5
+- LOOT_BONUS_MOBS,3
+- DURABILITY,3
+- FIRE_ASPECT,2
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

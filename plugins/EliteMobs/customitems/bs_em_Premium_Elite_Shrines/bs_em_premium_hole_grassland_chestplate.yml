@@ -1,0 +1,10 @@
+name: "&dIron Forger's Chestplate"
+material: IRON_CHESTPLATE
+lore:
+- "Made from the best iron in town"
+enchantments:
+- PROTECTION_FIRE,5
+- DURABILITY,3
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

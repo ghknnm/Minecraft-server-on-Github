@@ -1,0 +1,15 @@
+name: "&6Hexblade"
+material: IRON_AXE
+lore:
+- "This weapon is cursed by the gods"
+- "No person is safe from its plague"
+enchantments:
+- DAMAGE_ALL,4
+- DURABILITY,3
+- VANISHING_CURSE,1
+potionEffects:
+- POISON,1,target,onHit
+- WEAKNESS,1,self,continuous
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

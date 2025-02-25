@@ -1,0 +1,14 @@
+name: "&cCrusador's Leggings"
+material: GOLDEN_LEGGINGS
+lore:
+- "Forged in the fires of holy zeal"
+enchantments:
+- PROTECTION_FIRE,5
+- DURABILITY,3
+- VANISHING_CURSE,1
+potionEffects:
+- FIRE_RESISTANCE,1,self,continuous
+- INCREASE_DAMAGE,1,self,continuous
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

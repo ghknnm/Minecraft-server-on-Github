@@ -1,0 +1,45 @@
+entityType: IRON_GOLEM
+name: $bossLevel &2Ancient Golem
+level: dynamic
+healthMultiplier: 2.5
+damageMultiplier: 1
+powers:
+- attack_push.yml
+- arrow_rain.yml
+- ground_pound.yml
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: ASH
+isRegionalBoss: true
+leashRadius: 80
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_flagship_barren_miniboss2_golem_boots.yml
+  chance: 1
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDeathEvent
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 4
+      z: 0
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-12,15
+    Actions:
+    - action: MESSAGE
+      sValue: '&2[Ancient Golem] &f&oA chamber has been opened.'
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+spawnLocations:
+- world,295.5,158.0,-1249.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,53 @@
+powerType: UNIQUE
+eliteScript:
+  TriggerManager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: CUBOID
+      x: 29
+      y: 1
+      z: 29
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,10,9
+    Actions:
+    - action: SPAWN_FALLING_BLOCK
+      material: POINTED_DRIPSTONE
+      wait: 40
+      landingScripts:
+      - "LandingLocation"
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.02
+      repeatEvery: 10
+      times: 20
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        conditionType: FILTERING
+        locationIsAir: true
+    Cooldowns:
+      local: 800
+      global: 300
+      
+      
+  LandingLocation:
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      height: 1
+      Target:
+        targetType: LANDING_LOCATION
+    Actions:
+    - action: DAMAGE
+      multiplier: 0.8
+      Target:
+        targetType: ZONE_FULL
+        offset: 0,-1,0
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_LARGE
+      Target:
+        targetType: LANDING_LOCATION
+# Generated with https://magmaguy.com/webapp/webapp.html !

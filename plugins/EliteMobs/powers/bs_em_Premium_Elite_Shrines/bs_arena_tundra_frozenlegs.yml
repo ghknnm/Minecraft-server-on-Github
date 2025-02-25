@@ -1,0 +1,50 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: CYLINDER
+      radius: 6
+      height: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+        offset: 0,1,0
+        track: true
+    Actions:
+    - action: MESSAGE
+      sValue: "&9[Boss] &f&rWell, seems like your feet got froze, let's see how well you can run now."
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: SNOWFLAKE
+      Target:
+        targetType: ZONE_FULL
+        track: true
+      repeatEvery: 5
+      times: 40
+    - action: VISUAL_FREEZE
+      duration: 200
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+    - action: POTION_EFFECT
+      potionEffectType: SLOW
+      amplifier: 7
+      duration: 200
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+    - action: POTION_EFFECT
+      potionEffectType: JUMP
+      amplifier: 128
+      duration: 200
+      Target:
+        targetType: SELF
+    Cooldowns:
+      local: 700
+      global: 300
+# Generated with https://magmaguy.com/webapp/webapp.html !

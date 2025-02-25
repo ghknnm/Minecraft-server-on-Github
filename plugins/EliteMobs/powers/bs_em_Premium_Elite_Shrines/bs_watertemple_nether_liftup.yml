@@ -1,0 +1,29 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - PlayerDamagedByEliteMobEvent
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      height: 1
+      Target:
+        targetType: DIRECT_TARGET
+    Actions:
+    - action: MESSAGE
+      sValue: "&4[Boss] &flifts you up and throws you, &c&lDROP ON THE SLIME TO SURVIVE!"
+      Target:
+        targetType: DIRECT_TARGET
+    - action: PLACE_BLOCK
+      material: SLIME_BLOCK
+      duration: 160
+      Target:
+        targetType: ZONE_FULL
+    - action: PUSH
+      vValue: 0,2,0
+      Target:
+        targetType: DIRECT_TARGET
+    Cooldowns:
+      local: 600
+      global: 400
+# Generated with https://magmaguy.com/webapp/webapp.html !

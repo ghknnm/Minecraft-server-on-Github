@@ -1,0 +1,11 @@
+name: "&6Iron Warhammer"
+material: IRON_SWORD
+lore:
+- "Imbued with the power of fire"
+enchantments:
+- DAMAGE_ALL,6
+- DURABILITY,4
+- FIRE_ASPECT,2
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,103 @@
+entityType: VINDICATOR
+name: $bossLevel &2Temple Keeper
+level: dynamic
+healthMultiplier: 3
+damageMultiplier: 1
+mainHand: IRON_AXE
+powers:
+- attack_vacuum.yml
+- death_slice.yml
+- thunderstorm.yml
+- lightning_bolts.yml
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: ASH
+isRegionalBoss: true
+leashRadius: 80
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_flagship_barren_miniboss1_temple_cleaver.yml
+  chance: 1
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDeathEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+    - action: MESSAGE
+      sValue: '&2[Temple Keeper] &fYou earned your way into the temple, but i must
+        warn you, only the strongest warriors can come out of here alive.'
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+  
+  '1':
+    Zone:
+      shape: CUBOID
+      x: 4
+      y: 1
+      z: 4
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-1,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+  
+  '2':
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 1
+      z: 2
+      Target:
+        targetType: SELF_SPAWN
+        offset: -2,-1,2
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+  
+  
+  '3':
+    Zone:
+      shape: CUBOID
+      x: 2
+      y: 1
+      z: 2
+      Target:
+        targetType: SELF_SPAWN
+        offset: 1,-1,-2
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+  
+  '4':
+    Zone:
+      shape: CUBOID
+      x: 2
+      y: 1
+      z: 3
+      Target:
+        targetType: SELF_SPAWN
+        offset: 2,-1,2
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+spawnLocations:
+- world,295.5,188.0,-1245.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

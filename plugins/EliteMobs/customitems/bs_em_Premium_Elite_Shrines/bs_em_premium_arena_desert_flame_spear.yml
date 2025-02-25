@@ -1,0 +1,12 @@
+name: "&6Flame Spear"
+material: GOLDEN_SWORD
+lore:
+- "Made in the fiery depths of the underworld"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,3
+- FIRE_ASPECT,2
+- CRITICAL_STRIKES,2
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

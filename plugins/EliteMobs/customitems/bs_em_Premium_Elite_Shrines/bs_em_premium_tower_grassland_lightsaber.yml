@@ -1,0 +1,12 @@
+name: "&dLightsaber"
+material: IRON_SWORD
+lore:
+- "The bane of darkness, the light of hope"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,3
+- FIRE_ASPECT,2
+- LIGHTNING,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

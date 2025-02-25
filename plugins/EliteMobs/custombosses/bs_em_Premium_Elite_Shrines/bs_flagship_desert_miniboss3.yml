@@ -1,0 +1,24 @@
+entityType: HUSK
+name: $bossLevel &6Crypt Keeper
+level: dynamic
+healthMultiplier: 3
+damageMultiplier: 1
+powers:
+- plasma_blaster.yml
+- arrow_fireworks.yml
+- flamethrower.yml
+- invulnerability_fire.yml
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: ASH
+isRegionalBoss: true
+leashRadius: 80
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_flagship_desert_miniboss3_keeper_scythe.yml
+  chance: 1
+spawnLocations:
+- world,289.5,174.0,-1162.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

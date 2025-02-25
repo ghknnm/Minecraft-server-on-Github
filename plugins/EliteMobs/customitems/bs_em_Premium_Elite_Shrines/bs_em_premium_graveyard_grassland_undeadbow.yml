@@ -1,0 +1,14 @@
+name: "&dUndead's Bow"
+material: BOW
+lore:
+- "Punish your enemies with"
+- "the help of a thousand souls"
+enchantments:
+- ARROW_DAMAGE,5
+- ARROW_FIRE,2
+- ARROW_KNOCKBACK,2
+- ARROW_INFINITE,1
+- VANISHING_CURSE,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

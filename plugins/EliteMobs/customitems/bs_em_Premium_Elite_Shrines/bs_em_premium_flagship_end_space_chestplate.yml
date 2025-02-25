@@ -1,0 +1,12 @@
+name: "&5Space Chestplate"
+material: NETHERITE_CHESTPLATE
+lore:
+- "As strong as Obsidian."
+- "As durable as Titanium."
+enchantments:
+- PROTECTION_ENVIRONMENTAL,6
+- DURABILITY,4
+- VANISHING_CURSE,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

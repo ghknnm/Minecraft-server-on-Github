@@ -1,0 +1,251 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - ElitePhaseSwitchEvent
+    Actions:
+    - action: MESSAGE
+      sValue: "&d[Earl Of Envy] &fGUARDS!!!!!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - "cage1"
+      - "cage2"
+      - "cage3"
+      - "cage4"
+      - "cage5"
+      - "cage6"
+
+  cage1:
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - "layer1"
+      - "layer2"
+  cage2:
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - "layer3"
+      - "layer4"
+  cage3:
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - "layer5"
+      - "layer6"
+  cage4:
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - "layer7"
+      - "layer8"
+  cage5:
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - "layer9"
+      - "layer10"
+  cage6:
+    Actions:
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - "layer11"
+      - "layer12"
+
+
+
+
+  layer1:
+    Zone:
+      shape: CUBOID
+      x: 5
+      y: 3
+      z: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,0,-11
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+  layer2:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 1
+      z: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,3,-11
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+        
+
+  layer3:
+    Zone:
+      shape: CUBOID
+      x: 5
+      y: 3
+      z: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -13,0,-11
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+  layer4:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 1
+      z: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -13,3,-11
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+
+
+  layer5:
+    Zone:
+      shape: CUBOID
+      x: 5
+      y: 3
+      z: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -20,0,-11
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+  layer6:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 1
+      z: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -20,3,-11
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+
+
+  layer7:
+    Zone:
+      shape: CUBOID
+      x: 5
+      y: 3
+      z: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,0,10
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+  layer8:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 1
+      z: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,3,10
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+
+
+
+  layer9:
+    Zone:
+      shape: CUBOID
+      x: 5
+      y: 3
+      z: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -13,0,10
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+  layer10:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 1
+      z: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -13,3,10
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+
+
+
+  layer11:
+    Zone:
+      shape: CUBOID
+      x: 5
+      y: 3
+      z: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -20,0,10
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+  layer12:
+    Zone:
+      shape: CUBOID
+      x: 3
+      y: 1
+      z: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -20,3,10
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+
+
+      
+# Generated with https://magmaguy.com/webapp/webapp.html !

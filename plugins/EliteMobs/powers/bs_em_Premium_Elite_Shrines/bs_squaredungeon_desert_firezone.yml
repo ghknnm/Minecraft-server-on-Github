@@ -1,0 +1,193 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: MESSAGE
+      sValue: "&6[Boss]&f If i were you i would've brought a fire resistance potion."
+      Target:
+        targetType: DIRECT_TARGET
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - "zone1"
+      - "zone2"
+      - "zone3"
+      - "zone4"
+      - "zone5"
+      - "zone6"
+      - "zone7"
+      - "zone8"
+      - "zone9"
+      onlyRunOneScript: true
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - "zone1"
+      - "zone2"
+      - "zone3"
+      - "zone4"
+      - "zone5"
+      - "zone6"
+      - "zone7"
+      - "zone8"
+      - "zone9"
+      onlyRunOneScript: true
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - "zone1"
+      - "zone2"
+      - "zone3"
+      - "zone4"
+      - "zone5"
+      - "zone6"
+      - "zone7"
+      - "zone8"
+      - "zone9"
+      onlyRunOneScript: true
+    - action: RUN_SCRIPT
+      wait: 20
+      scripts:
+      - "zone1"
+      - "zone2"
+      - "zone3"
+      - "zone4"
+      - "zone5"
+      - "zone6"
+      - "zone7"
+      - "zone8"
+      - "zone9"
+      onlyRunOneScript: true
+    Cooldowns:
+      local: 500
+      global: 300
+
+  zone1:
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 240
+      Target:
+        targetType: ZONE_FULL
+  zone2:
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,0,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 240
+      Target:
+        targetType: ZONE_FULL
+  zone3:
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,0,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 240
+      Target:
+        targetType: ZONE_FULL
+  zone4:
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,6
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 240
+      Target:
+        targetType: ZONE_FULL
+  zone5:
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,-6
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 240
+      Target:
+        targetType: ZONE_FULL
+  zone6:
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,0,6
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 240
+      Target:
+        targetType: ZONE_FULL
+  zone7:
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 6,0,-6
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 240
+      Target:
+        targetType: ZONE_FULL
+  zone8:
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,0,-6
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 240
+      Target:
+        targetType: ZONE_FULL
+  zone9:
+    Zone:
+      shape: CYLINDER
+      radius: 3
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -6,0,6
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 240
+      Target:
+        targetType: ZONE_FULL        
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,34 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: CUBOID
+      x: 6
+      y: 1
+      z: 6
+      Target:
+        targetType: SELF_SPAWN
+    Actions:
+    - action: MESSAGE
+      sValue: "&2[Boss] &fTime to call a few old friends."
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 15
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: ASH
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 2
+      times: 5
+    - action: SUMMON_REINFORCEMENT
+      sValue: "bs_graveyard_barren_reinforcement.yml"
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.1
+    Cooldowns:
+      local: 600
+      global: 300
+# Generated with https://magmaguy.com/webapp/webapp.html !

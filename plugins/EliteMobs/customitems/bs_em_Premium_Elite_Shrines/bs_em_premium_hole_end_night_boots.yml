@@ -1,0 +1,12 @@
+name: "&dNight Boots"
+material: NETHERITE_BOOTS
+lore:
+- "Imbued with the very essence"
+- " of creation itself"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- PROTECTION_FALL,4
+- DURABILITY,3
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,12 @@
+name: "&9Edith's Boots"
+material: DIAMOND_BOOTS
+lore:
+- "Woven from the finest spider silk"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,5
+- PROTECTION_FALL,5
+- DURABILITY,3
+- FROST_WALKER,2
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

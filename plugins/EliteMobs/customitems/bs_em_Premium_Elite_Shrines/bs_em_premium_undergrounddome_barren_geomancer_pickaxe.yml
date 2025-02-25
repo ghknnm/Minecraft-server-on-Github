@@ -1,0 +1,11 @@
+name: "&2Geomancer's Pickaxe"
+material: IRON_PICKAXE
+lore:
+- "Once a trusty tool in the hands of a brave miner"
+enchantments:
+- DIG_SPEED,5
+- DURABILITY,3
+- LOOT_BONUS_BLOCKS,3
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,24 @@
+entityType: BLAZE
+name: $minibossLevel &cEmber Eye
+level: dynamic
+healthMultiplier: 2
+damageMultiplier: 1.5
+powers:
+- bs_church__nether_fireshield.yml
+- lightning_bolts.yml
+- attack_vacuum.yml
+- gold_shotgun.yml
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: FLAME
+isRegionalBoss: true
+leashRadius: 16
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_church_nether_blaze_shield.yml
+  chance: 1
+spawnLocations:
+- world,-1505.5,161.0,-423.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

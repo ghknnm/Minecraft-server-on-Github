@@ -1,0 +1,43 @@
+entityType: PIGLIN
+name: $bossLevel &cRadioactive Swine
+level: dynamic
+healthMultiplier: 2
+damageMultiplier: 0.8
+mainHand: GOLDEN_SWORD
+powers:
+- death_slice.yml
+- flame_pyre.yml
+- flamethrower.yml
+- shield_wall.yml
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: FLAME
+isRegionalBoss: true
+leashRadius: 30
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_flagship_nether_miniboss1_radioactive_blade.yml
+  chance: 1
+eliteScript:
+  Sleep:
+    Events:
+    - EliteMobSpawnEvent
+    Actions:
+    - action: SET_MOB_AI
+      bValue: false
+      Target:
+        targetType: SELF
+  WakeUp:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: SET_MOB_AI
+      bValue: true
+      Target:
+        targetType: SELF
+spawnLocations:
+- world,-1668.5,192.0,-624.5,0.0,0.0
+- world,443.5,178.0,-1056.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,13 @@
+name: "&cLord's Lance"
+material: GOLDEN_SWORD
+lore:
+- "Once held by the Netherlord"
+- "Considered as a symbol of wealth"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,5
+- LOOT_BONUS_MOBS,3
+- FIRE_ASPECT,2
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

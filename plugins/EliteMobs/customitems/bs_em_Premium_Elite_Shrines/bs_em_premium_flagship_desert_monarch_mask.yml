@@ -1,0 +1,13 @@
+name: "&6Monarch's Mask"
+material: GOLDEN_HELMET
+lore:
+- "Found deep in the pyramid"
+- "hidden in the mummies room"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- PROTECTION_PROJECTILE,4
+- DURABILITY,3
+- VANISHING_CURSE,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

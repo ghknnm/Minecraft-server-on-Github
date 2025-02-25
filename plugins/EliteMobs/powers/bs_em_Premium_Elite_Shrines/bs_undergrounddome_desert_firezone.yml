@@ -1,0 +1,256 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Actions:
+    - action: MESSAGE
+      sValue: "&6[Firefly] &f&oIs casting fire in the arena."
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+    - action: RUN_SCRIPT
+      wait: 40
+      scripts:
+      - "zone1"
+      - "zone2"
+      - "zone3"
+      - "zone4"
+      - "zone5"
+      - "zone6"
+      - "zone7"
+      - "zone8"
+      onlyRunOneScript: true
+    - action: RUN_SCRIPT
+      wait: 40
+      scripts:
+      - "zone1"
+      - "zone2"
+      - "zone3"
+      - "zone4"
+      - "zone5"
+      - "zone6"
+      - "zone7"
+      - "zone8"
+      onlyRunOneScript: true
+    Cooldowns:
+      local: 800
+      global: 400
+
+  zone1:
+    Zone:
+      shape: ROTATING_RAY
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 15,-3,0
+      animationDuration: 20
+      Yawrotation: 45
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-3,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 300
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 20      
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        conditionType: FILTERING
+        locationIsAir: true     
+  zone2:
+    Zone:
+      shape: ROTATING_RAY
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 11,-3,11
+      animationDuration: 20
+      yawRotation: 45
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-3,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 300
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 20      
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        conditionType: FILTERING
+        locationIsAir: true           
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        conditionType: FILTERING
+        locationIsAir: true      
+
+
+  zone3:
+    Zone:
+      shape: ROTATING_RAY
+      Target2:
+        targetType: SELF_SPAWN
+        offset: -15,-3,0
+      animationDuration: 20
+      Yawrotation: 45
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-3,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 300
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 20      
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        conditionType: FILTERING
+        locationIsAir: true     
+  zone4:
+    Zone:
+      shape: ROTATING_RAY
+      Target2:
+        targetType: SELF_SPAWN
+        offset: -11,-3,11
+      animationDuration: 20
+      yawRotation: 45
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-3,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 300
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 20      
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        conditionType: FILTERING
+        locationIsAir: true           
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        conditionType: FILTERING
+        locationIsAir: true     
+
+
+
+  zone5:
+    Zone:
+      shape: ROTATING_RAY
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 0,-3,15
+      animationDuration: 20
+      Yawrotation: 45
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-3,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 300
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 20      
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        conditionType: FILTERING
+        locationIsAir: true     
+  zone6:
+    Zone:
+      shape: ROTATING_RAY
+      Target2:
+        targetType: SELF_SPAWN
+        offset: -11,-3,-11
+      animationDuration: 20
+      yawRotation: 45
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-3,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 300
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 20      
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        conditionType: FILTERING
+        locationIsAir: true           
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        conditionType: FILTERING
+        locationIsAir: true     
+
+
+
+
+  zone7:
+    Zone:
+      shape: ROTATING_RAY
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 0,-3,-15
+      animationDuration: 20
+      Yawrotation: 45
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-3,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 300
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 20      
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        conditionType: FILTERING
+        locationIsAir: true     
+  zone8:
+    Zone:
+      shape: ROTATING_RAY
+      Target2:
+        targetType: SELF_SPAWN
+        offset: 11,-3,-11
+      animationDuration: 20
+      yawRotation: 45
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-3,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 300
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 1
+      times: 20      
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        conditionType: FILTERING
+        locationIsAir: true             
+# Generated with https://magmaguy.com/webapp/webapp.html !

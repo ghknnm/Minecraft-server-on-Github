@@ -1,0 +1,14 @@
+name: "&2EarthBoots"
+material: LEATHER_BOOTS
+lore:
+- "The slightest jump with these boots"
+- "can cause a horrifying earthquake..."
+- "Tread lightly."
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- PROTECTION_FALL,4
+- DURABILITY,3
+- EARTHQUAKE,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

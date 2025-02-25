@@ -1,0 +1,36 @@
+powerType: UNIQUE
+eliteScript:
+  TriggerManager:
+    Events:
+    - EliteMobDamagedEvent
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: HEART
+        amount: 20
+      Target:
+        targetType: SELF
+        offset: 0,2,0
+      wait: 40
+    - action: MESSAGE
+      sValue: "&5[Boss] &f&rYou're stronger than i thought..."
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 15
+    - action: MESSAGE
+      sValue: "&5[Boss] &f&rBut are you strong enough for my students?"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 15
+      wait: 20
+    - action: SUMMON_REINFORCEMENT
+      sValue: "bs_church_grassland_reinforcement.yml"
+      Target:
+        targetType: SELF
+      wait: 40
+      repeatEvery: 1
+      times: 7
+    Cooldowns:
+      local: 2000
+      global: 600
+# Generated with https://magmaguy.com/webapp/webapp.html !

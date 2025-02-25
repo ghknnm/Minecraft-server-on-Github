@@ -1,0 +1,13 @@
+name: "&9Exarch's Saber"
+material: IRON_AXE
+lore:
+- "Blesses its wielder with "
+- "power and luck"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,3
+- SWEEPING_EDGE,3
+- LOOT_BONUS_MOBS,3
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,12 @@
+name: "&9Snow Gun"
+material: BOW
+lore:
+- "High precision!"
+enchantments:
+- ARROW_DAMAGE,5
+- DURABILITY,3
+- CRITICAL_STRIKES,2
+- LIGHTNING,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

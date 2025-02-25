@@ -1,0 +1,11 @@
+name: "&dTwilight Drill"
+material: DIAMOND_PICKAXE
+lore:
+- "Crafted from space crystals"
+enchantments:
+- DIG_SPEED,5
+- DURABILITY,3
+- LOOT_BONUS_BLOCKS,3
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

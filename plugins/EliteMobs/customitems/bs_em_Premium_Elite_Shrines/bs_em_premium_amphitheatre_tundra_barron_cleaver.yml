@@ -1,0 +1,11 @@
+name: "&9Barron's Cleaver"
+material: IRON_AXE
+lore:
+- "Gives off an electric spark"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,3
+- LIGHTNING,2
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,67 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: CYLINDER
+      radius: 2
+      height: 20
+      Target:
+        targetType: SELF_SPAWN
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: DRAGON_BREATH
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 2
+      times: 50
+    - action: RUN_SCRIPT
+      wait: 80
+      scripts:
+      - "explosion"
+    Cooldowns:
+      local: 600
+      global: 300
+
+  explosion:
+    Zone:
+      shape: SPHERE
+      radius: 5
+      Target:
+        targetType: SELF_SPAWN
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: EXPLOSION_LARGE
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.3
+    - action: PLAY_SOUND
+      sValue: "entity.generic.explode"
+      Target:
+        targetType: ZONE_FULL
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: DRAGON_BREATH
+      Target:
+        targetType: ZONE_FULL
+    - action: DAMAGE
+      multiplier: 1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 15
+    - action: PUSH
+      vValue: 1,1,1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 15
+    - action: POTION_EFFECT
+      potionEffectType: BLINDNESS
+      amplifier: 1
+      duration: 80
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 15
+# Generated with https://magmaguy.com/webapp/webapp.html !

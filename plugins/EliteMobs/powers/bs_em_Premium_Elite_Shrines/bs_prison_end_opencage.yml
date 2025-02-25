@@ -1,0 +1,63 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDeathEvent
+    Actions:
+    - action: MESSAGE
+      sValue: "&5[Student] &fYou may have beaten me, but let's see what you can do with my master"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+    - action: RUN_SCRIPT
+      wait: 60
+      scripts:
+      - "cage1"
+      - "cage2"
+      - "cage3"
+
+  cage1:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 4
+      z: 8
+      Target:
+        targetType: SELF_SPAWN
+        offset: 8,2,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+
+  cage3:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 3
+      z: 6
+      Target:
+        targetType: SELF_SPAWN
+        offset: 8,6,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL
+
+  cage2:
+    Zone:
+      shape: CUBOID
+      x: 1
+      y: 1
+      z: 4
+      Target:
+        targetType: SELF_SPAWN
+        offset: 8,9,0
+    Actions:
+    - action: PLACE_BLOCK
+      material: AIR
+      Target:
+        targetType: ZONE_FULL        
+# Generated with https://magmaguy.com/webapp/webapp.html !

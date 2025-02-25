@@ -1,0 +1,34 @@
+powerType: UNIQUE
+eliteScript:
+  TriggerManager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: CYLINDER
+      radius: 7
+      borderRadius: 4
+      height: 3
+      Target:
+        targetType: SELF_SPAWN
+    Actions:
+    - action: MESSAGE
+      sValue: "&5[BOSS] &fTime to summon my little demons!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 15
+    - action: SUMMON_REINFORCEMENT
+      sValue: "bs_well_grassland_reinforcement.yml"
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.004
+      wait: 60
+      repeatEvery: 60
+      times: 4
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        locationIsAir: true
+    Cooldowns:
+      local: 2800
+      global: 500
+# Generated with https://magmaguy.com/webapp/webapp.html !

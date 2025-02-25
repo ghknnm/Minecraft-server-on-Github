@@ -1,0 +1,13 @@
+name: "&2Terra Boots"
+material: IRON_BOOTS
+lore:
+- "Perhaps its a bit too heavy..."
+enchantments:
+- PROTECTION_ENVIRONMENTAL,7
+- PROTECTION_FALL,3
+- DURABILITY,3
+potionEffects:
+- SLOW,1,self,continuous
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

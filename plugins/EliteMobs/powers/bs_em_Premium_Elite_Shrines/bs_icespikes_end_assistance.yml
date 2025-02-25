@@ -1,0 +1,51 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: CYLINDER
+      radius: 5
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+    Actions:
+    - action: MESSAGE
+      sValue: "&5[Black Death] &f&rYou're boring me to death... And I'm already dead!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 15
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: DRAGON_BREATH
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 5
+      times: 4
+    - action: RUN_SCRIPT
+      scripts:
+      - "reinforcement"
+    Cooldowns:
+      local: 2000
+      global: 400
+      
+      
+  reinforcement:
+    Zone:
+      shape: CYLINDER
+      radius: 5
+      height: 1
+      Target:
+        targetType: SELF_SPAWN
+    Actions:
+    - action: STRIKE_LIGHTNING
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.1
+    - action: SUMMON_REINFORCEMENT
+      sValue: "bs_icespikes_end_reinforcement.yml"
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.05
+      wait: 10
+# Generated with https://magmaguy.com/webapp/webapp.html !

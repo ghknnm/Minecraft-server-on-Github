@@ -1,0 +1,11 @@
+name: "&9Chilly Charm"
+material: WHITE_WOOL
+lore:
+- "Keeps you warm and strong during your"
+- "winter travels, although it's a bit heavy"
+potionEffects:
+- SLOW,1,self,continuous
+- INCREASE_DAMAGE,1,self,continuous
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,11 @@
+name: "&2Bomb Suit"
+material: LEATHER_CHESTPLATE
+lore:
+- "An Industry Standard"
+enchantments:
+- PROTECTION_EXPLOSIONS,5
+- DURABILITY,3
+- VANISHING_CURSE,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

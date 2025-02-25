@@ -1,0 +1,15 @@
+name: "&dHelmet Of The Shadows"
+material: NETHERITE_HELMET
+lore:
+- "Turns its wearer into a shadow"
+- "never seen but always present"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- DURABILITY,3
+- VANISHING_CURSE,1
+potionEffects:
+- SPEED,1,self,continuous
+- INVISIBILITY,1,self,continuous
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

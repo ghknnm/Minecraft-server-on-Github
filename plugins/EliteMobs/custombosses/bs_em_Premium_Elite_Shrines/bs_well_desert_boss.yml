@@ -1,0 +1,26 @@
+entityType: SKELETON
+name: $minibossLevel &6Wet Bones
+level: dynamic
+healthMultiplier: 3
+damageMultiplier: 1
+isBaby: false
+powers:
+- bs_well_desert_firecyl.yml
+- skeleton_tracking_arrow.yml
+- skeleton_pillar.yml
+- tracking_fireball.yml
+- invulnerability_fire.yml
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: FLAME
+isRegionalBoss: true
+leashRadius: 15
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_well_desert_bonedagger.yml
+  chance: 1
+spawnLocations:
+- world,87.5,136.0,-1055.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,12 @@
+name: "&2Slime Bow"
+material: BOW
+lore:
+- "Also works as a grappling hook"
+enchantments:
+- ARROW_DAMAGE,5
+- DURABILITY,3
+- ARROW_KNOCKBACK,2
+- GRAPPLING_HOOK,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

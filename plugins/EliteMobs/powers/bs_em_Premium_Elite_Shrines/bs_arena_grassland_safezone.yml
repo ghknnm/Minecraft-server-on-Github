@@ -1,0 +1,417 @@
+powerType: UNIQUE
+eliteScript:
+  TriggerManager:
+    Events:
+    - EliteMobDamagedEvent
+    Actions:
+    - action: RUN_SCRIPT
+      scripts:
+      - "zone1"
+      - "zone2"
+      - "zone3"
+      - "zone4"
+      - "zone5"
+      - "zone6"
+      - "zone7"
+      - "zone8"
+      - "zone9"      
+      onlyRunOneScript: true    
+    - action: MESSAGE
+      sValue: "You have 3 seconds to get into the safezone before you get hit!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+    - action: MESSAGE
+      sValue: "3!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+      wait: 20
+    - action: MESSAGE
+      sValue: "2!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+      wait: 40
+    - action: MESSAGE
+      sValue: "1!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+      wait: 60
+    Cooldowns:
+      local: 400
+      global: 240
+      
+      
+      
+  zone1:
+    Zone:
+      shape: SPHERE
+      radius: 4
+      borderRadius: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,0
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: REDSTONE
+        amount: 2
+        red: 72
+        green: 183
+        blue: 239
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 9
+    - action: TAG
+      tags:
+      - "inzone"
+      duration: 90
+      Target:
+        targetType: ZONE_FULL
+    - action: DAMAGE
+      multiplier: 5
+      Target:
+        targetType: NEARBY_PLAYERS
+      wait: 80
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        doesNotHaveTags:
+        - "inzone"  
+
+  zone1:
+    Zone:
+      shape: SPHERE
+      radius: 4
+      borderRadius: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,0
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: REDSTONE
+        amount: 2
+        red: 72
+        green: 183
+        blue: 239
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 9
+    - action: TAG
+      tags:
+      - "inzone"
+      duration: 90
+      Target:
+        targetType: ZONE_FULL
+    - action: DAMAGE
+      multiplier: 5
+      Target:
+        targetType: NEARBY_PLAYERS
+      wait: 80
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        doesNotHaveTags:
+        - "inzone"
+
+  zone2:
+    Zone:
+      shape: SPHERE
+      radius: 4
+      borderRadius: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 4,0,0
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: REDSTONE
+        amount: 2
+        red: 72
+        green: 183
+        blue: 239
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 9
+    - action: TAG
+      tags:
+      - "inzone"
+      duration: 90
+      Target:
+        targetType: ZONE_FULL
+    - action: DAMAGE
+      multiplier: 5
+      Target:
+        targetType: NEARBY_PLAYERS
+      wait: 80
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        doesNotHaveTags:
+        - "inzone"
+
+  zone3:
+    Zone:
+      shape: SPHERE
+      radius: 4
+      borderRadius: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,5
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: REDSTONE
+        amount: 2
+        red: 72
+        green: 183
+        blue: 239
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 9
+    - action: TAG
+      tags:
+      - "inzone"
+      duration: 90
+      Target:
+        targetType: ZONE_FULL
+    - action: DAMAGE
+      multiplier: 5
+      Target:
+        targetType: NEARBY_PLAYERS
+      wait: 80
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        doesNotHaveTags:
+        - "inzone"
+
+  zone4:
+    Zone:
+      shape: SPHERE
+      radius: 4
+      borderRadius: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,0,-6
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: REDSTONE
+        amount: 2
+        red: 72
+        green: 183
+        blue: 239
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 9
+    - action: TAG
+      tags:
+      - "inzone"
+      duration: 90
+      Target:
+        targetType: ZONE_FULL
+    - action: DAMAGE
+      multiplier: 5
+      Target:
+        targetType: NEARBY_PLAYERS
+      wait: 80
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        doesNotHaveTags:
+        - "inzone"
+
+  zone5:
+    Zone:
+      shape: SPHERE
+      radius: 4
+      borderRadius: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -8,0,0
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: REDSTONE
+        amount: 2
+        red: 72
+        green: 183
+        blue: 239
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 9
+    - action: TAG
+      tags:
+      - "inzone"
+      duration: 90
+      Target:
+        targetType: ZONE_FULL
+    - action: DAMAGE
+      multiplier: 5
+      Target:
+        targetType: NEARBY_PLAYERS
+      wait: 80
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        doesNotHaveTags:
+        - "inzone"
+
+  zone6:
+    Zone:
+      shape: SPHERE
+      radius: 4
+      borderRadius: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 4,0,7
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: REDSTONE
+        amount: 2
+        red: 72
+        green: 183
+        blue: 239
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 9
+    - action: TAG
+      tags:
+      - "inzone"
+      duration: 90
+      Target:
+        targetType: ZONE_FULL
+    - action: DAMAGE
+      multiplier: 5
+      Target:
+        targetType: NEARBY_PLAYERS
+      wait: 80
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        doesNotHaveTags:
+        - "inzone"
+
+  zone7:
+    Zone:
+      shape: SPHERE
+      radius: 4
+      borderRadius: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -8,0,3
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: REDSTONE
+        amount: 2
+        red: 72
+        green: 183
+        blue: 239
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 9
+    - action: TAG
+      tags:
+      - "inzone"
+      duration: 90
+      Target:
+        targetType: ZONE_FULL
+    - action: DAMAGE
+      multiplier: 5
+      Target:
+        targetType: NEARBY_PLAYERS
+      wait: 80
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        doesNotHaveTags:
+        - "inzone"
+
+  zone8:
+    Zone:
+      shape: SPHERE
+      radius: 4
+      borderRadius: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: -4,0,-5
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: REDSTONE
+        amount: 2
+        red: 72
+        green: 183
+        blue: 239
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 9
+    - action: TAG
+      tags:
+      - "inzone"
+      duration: 90
+      Target:
+        targetType: ZONE_FULL
+    - action: DAMAGE
+      multiplier: 5
+      Target:
+        targetType: NEARBY_PLAYERS
+      wait: 80
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        doesNotHaveTags:
+        - "inzone"
+
+  zone9:
+    Zone:
+      shape: SPHERE
+      radius: 4
+      borderRadius: 1
+      Target:
+        targetType: SELF_SPAWN
+        offset: 2,0,-6
+    Actions:
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: REDSTONE
+        amount: 2
+        red: 72
+        green: 183
+        blue: 239
+      Target:
+        targetType: ZONE_FULL
+      repeatEvery: 10
+      times: 9
+    - action: TAG
+      tags:
+      - "inzone"
+      duration: 90
+      Target:
+        targetType: ZONE_FULL
+    - action: DAMAGE
+      multiplier: 5
+      Target:
+        targetType: NEARBY_PLAYERS
+      wait: 80
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        doesNotHaveTags:
+        - "inzone"        
+# Generated with https://magmaguy.com/webapp/webapp.html !

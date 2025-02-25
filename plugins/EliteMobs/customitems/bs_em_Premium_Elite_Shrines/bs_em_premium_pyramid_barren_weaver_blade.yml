@@ -1,0 +1,15 @@
+name: "&2Weaver's Blade"
+material: SHEARS
+lore:
+- "Entangle and ensnare your enemies"
+- "with the help of these weaves"
+enchantments:
+- DAMAGE_ARTHROPODS,5
+- DURABILITY,3
+- LOOT_BONUS_MOBS,3
+- VANISHING_CURSE,1
+potionEffects:
+- SLOW,1,target,onHit
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

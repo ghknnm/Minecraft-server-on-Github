@@ -1,0 +1,16 @@
+name: "&dMedusa' Hair"
+material: NETHERITE_HELMET
+lore:
+- "Will stun your enemies"
+- "and keep them in place"
+- "in exchange of your strengh"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- DURABILITY,3
+- VANISHING_CURSE,1
+potionEffects:
+- SLOW,2,target,onHit
+- WEAKNESS,1,self,onHit
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

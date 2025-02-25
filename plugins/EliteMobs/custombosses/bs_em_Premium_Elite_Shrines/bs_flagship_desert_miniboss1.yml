@@ -1,0 +1,27 @@
+11entityType: HUSK
+name: $bossLevel &6Tomb Raider
+level: dynamic
+healthMultiplier: 3
+damageMultiplier: 1
+powers:
+- attack_fire.yml
+- ground_pound.yml
+- taze.yml
+- fireworks_barrage.yml
+- invulnerability_fire.yml
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: ASH
+isRegionalBoss: true
+leashRadius: 80
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_flagship_desert_miniboss1.yml
+  chance: 1
+spawnLocations:
+- world,-1454.5,173.0,-602.5,0.0,0.0
+- world,-1646.5,195.0,-874.5,0.0,0.0
+- world,289.5,193.0,-1146.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

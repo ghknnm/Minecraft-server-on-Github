@@ -1,0 +1,13 @@
+name: "&dCosmic Charm"
+material: IRON_SWORD
+lore:
+- "Gain the speed of mites"
+- "But suffer their weakness"
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- SPEED,0,self,continuous
+- WEAKNESS,0,self,continuous
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,43 @@
+entityType: ZOMBIE
+name: '&dGuard'
+level: dynamic
+healthMultiplier: 1
+damageMultiplier: 0.8
+helmet: IRON_HELMET
+chestplate: IRON_CHESTPLATE
+leggings: IRON_LEGGINGS
+boots: IRON_BOOTS
+powers:
+- attack_weakness.yml
+- attack_wither.yml
+- taze.yml
+- plasma_blaster.yml
+normalizedCombat: true
+dropsEliteMobsLoot: false
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: CLOUD
+isRegionalBoss: true
+removeAfterDeath: true
+spawnLocations:
+- world,-1250.5,152.0,275.5,0.0,0.0
+- world,-1257.5,152.0,252.5,0.0,0.0
+- world,-1257.5,152.0,275.5,0.0,0.0
+- world,-1264.5,152.0,252.5,0.0,0.0
+- world,-1264.5,152.0,275.5,0.0,0.0
+- world,-1250.5,152.0,252.5,0.0,0.0
+- world,-1364.5,141.0,83.5,0.0,0.0
+- world,-1371.5,141.0,60.5,0.0,0.0
+- world,-1371.5,141.0,83.5,0.0,0.0
+- world,-995.5,234.0,-139.5,0.0,0.0
+- world,-1002.5,234.0,-139.5,0.0,0.0
+- world,-1009.5,234.0,-162.5,0.0,0.0
+- world,-1009.5,234.0,-139.5,0.0,0.0
+- world,-995.5,234.0,-162.5,0.0,0.0
+- world,-691.5,145.0,-923.5,0.0,0.0
+- world,-698.5,145.0,-946.5,0.0,0.0
+- world,-698.5,145.0,-923.5,0.0,0.0
+- world,-705.5,145.0,-946.5,0.0,0.0
+- world,-705.5,145.0,-923.5,0.0,0.0
+- world,-691.5,145.0,-946.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

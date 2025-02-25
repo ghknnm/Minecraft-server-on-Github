@@ -1,0 +1,15 @@
+name: "&cVolcano Sword"
+material: STONE_SWORD
+lore:
+- "Made from the ashs of"
+- "a volcanic eruption"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,3
+- HUNTER,3
+- VANISHING_CURSE,1
+potionEffects:
+- WITHER,1,target,onHit
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

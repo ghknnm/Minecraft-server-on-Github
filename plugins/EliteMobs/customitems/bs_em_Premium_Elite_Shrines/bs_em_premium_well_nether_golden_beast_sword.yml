@@ -1,0 +1,14 @@
+name: "&cGolden Beast Sword"
+material: GOLDEN_SWORD
+lore:
+- "crafted from the scales of"
+- " a rare and powerful beast"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,3
+- SWEEPING_EDGE,3
+- FIRE_ASPECT,2
+- VANISHING_CURSE,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

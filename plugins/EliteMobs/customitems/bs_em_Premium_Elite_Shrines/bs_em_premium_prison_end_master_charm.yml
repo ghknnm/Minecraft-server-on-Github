@@ -1,0 +1,12 @@
+name: "&dEnd Master's Charm"
+material: POPPED_CHORUS_FRUIT
+lore:
+- "Absorbs all gravity from your surroundings"
+enchantments:
+- VANISHING_CURSE,1
+potionEffects:
+- SLOW,1,self,continuous
+- JUMP,1,self,continuous
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

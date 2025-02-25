@@ -1,0 +1,26 @@
+entityType: ZOMBIE
+name: $minibossLevel &dCelestial Emperor
+level: dynamic
+healthMultiplier: 3
+damageMultiplier: 1..2
+powers:
+- bs_tower_end_electricshock.yml
+- arrow_fireworks.yml
+- attack_lightning.yml
+- attack_vacuum.yml
+normalizedCombat: true
+dropsEliteMobsLoot: true
+dropsVanillaLoot: false
+dropsRandomLoot: false
+trails: DRAGON_BREATH
+disguise: ENDERMAN
+isRegionalBoss: true
+leashRadius: 20
+movementSpeedAttribute: 0.3
+removeAfterDeath: true
+uniqueLootList:
+- filename: bs_em_premium_tower_end_celestial_scepter.yml
+  chance: 1
+spawnLocations:
+- world,519.5,195.0,-1248.5,0.0,0.0
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,12 @@
+name: "&2Crystal Helmet"
+material: DIAMOND_HELMET
+lore:
+- "Made from the finest Crystals"
+- "Its almost blinding!"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,5
+- DURABILITY,3
+- VANISHING_CURSE,1
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

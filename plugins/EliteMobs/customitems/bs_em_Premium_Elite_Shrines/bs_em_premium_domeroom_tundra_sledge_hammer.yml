@@ -1,0 +1,11 @@
+name: "&9Sledge Hammer"
+material: IRON_AXE
+lore:
+- "Knocks back the thickest of walls"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,3
+- KNOCKBACK,3
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

@@ -1,0 +1,78 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobEnterCombatEvent
+    Conditions:
+      Target:
+        targetType: SELF
+      conditionType: BLOCKING
+      doesNotHaveTags:
+      - "Alive"
+    Actions:
+    - action: MESSAGE
+      sValue: "&c[Beast] &fLet's play a little game of floor is lava!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 20
+    - action: TAG
+      tags:
+      - "Alive"
+      Target:
+        targetType: SELF
+    - action: RUN_SCRIPT
+      wait: 20
+      repeatEvery: 200
+      scripts:
+      - "start"
+      Conditions:
+        Target:
+          targetType: SELF
+        conditionType: BLOCKING
+        HasTags:
+        - "Alive"    
+    
+    
+    
+  start:  
+    Zone:
+      shape: CUBOID
+      x: 29
+      y: 1
+      z: 29
+      Target:
+        targetType: SELF_SPAWN
+        offset: 0,-1,9
+    Actions:
+    - action: PLACE_BLOCK
+      material: RED_WOOL
+      duration: 30
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.2
+        track: false
+      scripts:
+      - "fil"
+    Cooldowns:
+      local: 700
+      global: 400
+   
+        
+    
+      
+  fil:
+    Actions: 
+    - action: PLACE_BLOCK
+      material: ORANGE_WOOL
+      duration: 30
+      Target:
+        targetType: INHERIT_SCRIPT_TARGET
+      wait: 31
+    - action: PLACE_BLOCK
+      material: LAVA
+      duration: 80
+      Target:
+        targetType: INHERIT_SCRIPT_TARGET  
+      wait: 63
+
+# Generated with https://magmaguy.com/webapp/webapp.html !

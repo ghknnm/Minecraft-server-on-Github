@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1740504050196
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740504072785
+  login: 1740500473883
+money: '0'
+last-account-name: ghknnm_dll
+logoutlocation:
+  world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
+  world-name: world
+  x: 2026.7922907550987
+  y: 74.9375
+  z: 233.31708477823977
+  yaw: 172.9910888671875
+  pitch: 17.100112915039062
+lastlocation:
+  world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
+  world-name: world
+  x: 1824.6332358997893
+  y: 66.0
+  z: -82.40126001375612
+  yaw: 96.750732421875
+  pitch: 54.45008850097656

@@ -1,0 +1,13 @@
+name: "&6Sacred Scythe"
+material: DIAMOND_AXE
+lore:
+- "Said to hold the power to reap"
+- "the souls of the impure and unfaithful"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,3
+- SWEEPING_EDGE,3
+- LIGHTNING,2
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

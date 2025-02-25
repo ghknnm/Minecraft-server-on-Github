@@ -1,0 +1,15 @@
+name: "&9Hail Helmet"
+material: IRON_HELMET
+lore:
+- "Ever thirsty? These will do!"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,4
+- DURABILITY,3
+- OXYGEN,3
+- WATER_WORKER,1
+- VANISHING_CURSE,1
+potionEffects:
+- FIRE_RESISTANCE,1,self,continuous
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

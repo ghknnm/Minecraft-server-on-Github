@@ -1,0 +1,15 @@
+name: "&dStar Chestplate"
+material: CHAINMAIL_CHESTPLATE
+lore:
+- "Made with unearthly materials"
+- "Grants its wearer great power"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,6
+- DURABILITY,3
+- VANISHING_CURSE,1
+potionEffects:
+- GLOWING,1,self,onHit
+- NIGHT_VISION,1,self,continuous
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

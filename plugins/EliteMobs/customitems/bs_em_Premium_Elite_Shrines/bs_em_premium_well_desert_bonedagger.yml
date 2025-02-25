@@ -1,0 +1,11 @@
+name: "&6Bone Dagger"
+material: IRON_SWORD
+lore:
+- "Harvested from Wet Bones's skelly"
+enchantments:
+- DAMAGE_ALL,4
+- DURABILITY,3
+- SWEEPING_EDGE,3
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

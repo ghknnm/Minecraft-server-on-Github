@@ -1,0 +1,16 @@
+name: "&dMoon Boots"
+material: CHAINMAIL_BOOTS
+lore:
+- "Feels just like walking on the moon"
+enchantments:
+- PROTECTION_ENVIRONMENTAL,5
+- PROTECTION_FALL,5
+- DURABILITY,3
+- VANISHING_CURSE,1
+potionEffects:
+- JUMP,1,self,onHit
+- SLOW,0,self,continuous
+- LEVITATION,1,self,onHit
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

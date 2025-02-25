@@ -1,0 +1,83 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: SPHERE
+      radius: 30
+      Target:
+        targetType: SELF_SPAWN
+    Actions:
+    - action: MESSAGE
+      sValue: "&9[Storm Surfer] &f&o has took control of the sea, hang on tight to not get pushed, big waves ahead!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+    - action: RUN_SCRIPT
+      repeatEvery: 40
+      times: 3
+      scripts:
+      - "push1"
+      - "push2"
+      - "push3"
+      - "push4"
+      - "push5"
+      - "push6"
+      onlyRunOneScript: true
+    - action: SPAWN_PARTICLE
+      particles:
+      - particle: WATER_SPLASH
+        amount: 4
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.3
+      repeatEvery: 6
+      times: 20
+    Cooldowns:
+      local: 600
+      global: 400
+
+  push1:
+    Actions:
+    - action: PUSH
+      vValue: 1,1,1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+  push2:
+    Actions:
+    - action: PUSH
+      vValue: 0,1,0
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+  push3:
+    Actions:
+    - action: PUSH
+      vValue: 0,0,1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+  push4:
+    Actions:
+    - action: PUSH
+      vValue: 1,0,0
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+  push5:
+    Actions:
+    - action: PUSH
+      vValue: 1,0,1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30
+  push6:
+    Actions:
+    - action: PUSH
+      vValue: 0,1,1
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 30        
+# Generated with https://magmaguy.com/webapp/webapp.html !

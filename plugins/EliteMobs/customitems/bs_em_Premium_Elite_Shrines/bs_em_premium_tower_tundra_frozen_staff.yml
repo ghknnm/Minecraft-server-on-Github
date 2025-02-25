@@ -1,0 +1,12 @@
+name: "&9Frozen Staff"
+material: IRON_SWORD
+lore:
+- "Once held by a powerful"
+- "snow sage"
+enchantments:
+- DAMAGE_ALL,5
+- DURABILITY,3
+- KNOCKBACK,2
+scalability: scalable
+itemType: unique
+# Generated with https://magmaguy.com/webapp/webapp.html !

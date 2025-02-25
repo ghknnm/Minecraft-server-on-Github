@@ -1,0 +1,35 @@
+powerType: UNIQUE
+eliteScript:
+  triggermanager:
+    Events:
+    - EliteMobDamagedByPlayerEvent
+    Zone:
+      shape: CUBOID
+      x: 17
+      y: 1
+      z: 17
+      Target:
+        targetType: SELF_SPAWN
+        offset: -5,0,0
+    Actions:
+    - action: MESSAGE
+      sValue: "&2[Guardian] &fLet's light this party up!"
+      Target:
+        targetType: NEARBY_PLAYERS
+        range: 15
+    - action: PLACE_BLOCK
+      material: FIRE
+      duration: 60
+      Target:
+        targetType: ZONE_FULL
+        coverage: 0.1
+      wait: 20
+      Conditions:
+        Target:
+          targetType: ACTION_TARGET
+        conditionType: FILTERING
+        locationIsAir: true
+    Cooldowns:
+      local: 800
+      global: 400
+# Generated with https://magmaguy.com/webapp/webapp.html !
