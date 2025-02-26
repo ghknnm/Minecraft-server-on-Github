@@ -1,1 +1,1 @@
-java -Xms12G -jar purpur.jar
+java -Xms13G -jar purpur.jar
