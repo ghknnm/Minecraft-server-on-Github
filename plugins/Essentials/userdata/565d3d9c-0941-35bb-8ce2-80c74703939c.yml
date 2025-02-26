@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1740579389776
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740580120590
+  login: 1740577983033
+money: '0'
+last-account-name: yoloooo
+logoutlocation:
+  world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
+  world-name: world
+  x: 1910.699999988079
+  y: 63.0
+  z: 1173.9074314372237
+  yaw: -32.25069808959961
+  pitch: 10.500448226928711
+lastlocation:
+  world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
+  world-name: world
+  x: 1979.3176784395612
+  y: 30.024424088213678
+  z: 1219.699999988079
+  yaw: -134.10194396972656
+  pitch: 90.0
