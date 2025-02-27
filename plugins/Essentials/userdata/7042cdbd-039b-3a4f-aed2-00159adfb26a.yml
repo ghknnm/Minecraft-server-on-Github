@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1740569720190
-  login: 1740565917055
+  logout: 1740674057329
+  login: 1740669436622
 money: '0'
 last-account-name: camapbonchan
 logoutlocation:
   world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
   world-name: world
-  x: 1678.3311676211329
+  x: 1681.3966244769
   y: 141.0
-  z: 1051.6417856414807
-  yaw: 5.673858642578125
-  pitch: 8.655467987060547
+  z: 1047.2788344130618
+  yaw: -134.8787078857422
+  pitch: 11.028162956237793
 lastlocation:
   world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
   world-name: world
