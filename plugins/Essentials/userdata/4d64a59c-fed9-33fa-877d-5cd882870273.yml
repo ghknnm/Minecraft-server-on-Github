@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1740582335236
-  login: 1740573990999
+  logout: 1740666738872
+  login: 1740666284961
 money: '0'
 last-account-name: Sukuna
 logoutlocation:
   world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
   world-name: world
-  x: 1677.157420486535
-  y: 141.0
-  z: 1052.7291648194423
-  yaw: -144.0726318359375
-  pitch: 6.098572254180908
+  x: 1665.4934053991108
+  y: 132.0
+  z: 1065.6289048666758
+  yaw: 89.51568603515625
+  pitch: 16.98261833190918
 lastlocation:
   world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
   world-name: world
