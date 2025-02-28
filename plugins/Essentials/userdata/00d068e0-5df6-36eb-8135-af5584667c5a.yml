@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1740746338647
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740746755729
+  login: 1740733015720
+money: '0'
+last-account-name: Electronica24
+lastlocation:
+  world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
+  world-name: world
+  x: 1540.3431360111347
+  y: 61.411404397213474
+  z: 832.9642976953357
+  yaw: -86.57105255126953
+  pitch: -2.69994854927063
+logoutlocation:
+  world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
+  world-name: world
+  x: 1703.192241570338
+  y: 65.0
+  z: 798.346063461181
+  yaw: 27.515594482421875
+  pitch: 3.9003396034240723
+homes:
+  home:
+    world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
+    world-name: world
+    x: 1670.8665278872857
+    y: 67.0
+    z: 803.6999999880791
+    yaw: 75.365478515625
+    pitch: 13.05036735534668
