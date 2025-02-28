@@ -2,7 +2,7 @@ settings:
   rideables:
     mob-needs-to-be-nametagged-to-ride: false
   twerk-to-reduce-burn-time:
-    chance: 0.0
+    chance: 0.5
     amount: 0.5
   block-building-above-nether:
     height-limit: 128
@@ -20,7 +20,7 @@ settings:
     snow_golem:
       drop-pumpkin-when-sheared: true
     sheep:
-      jeb-shear-random-color: false
+      jeb-shear-random-color: true
   lightning-transforms-entities:
     entities:
       villager: witch
@@ -37,12 +37,12 @@ settings:
       duration: 2
       path-blocks:
       - DIRT_PATH
-    cancel-damage-from-pet-owner: false
-    fall-damage-when-jump-boost-applied: true
+    cancel-damage-from-pet-owner: true
+    fall-damage-when-jump-boost-applied: false
   shield:
     damage-reduction: 1.0
     cooldown: 100
-  unlock-all-recipes-on-join: false
+  unlock-all-recipes-on-join: true
   use-notarget-permissions: false
   items:
     beehive-lore:
@@ -55,7 +55,7 @@ settings:
     pitch: 1.25
     enabled: false
   totem:
-    work-on-void-death: false
+    work-on-void-death: true
   blocks:
     shift-right-click-for-invisible-item-frames: true
     chorus-flowers-always-drop: false
@@ -71,14 +71,14 @@ settings:
     max-layers: 6
   dispenser:
     break-blocks:
-      pickaxe: false
-      shovel: false
-      hoe: false
-      axe: false
+      pickaxe: true
+      shovel: true
+      hoe: true
+      axe: true
       shears: false
-    shears-shear-pumpkin: false
-    puts-discs-in-jukebox: false
-    interact-with-cauldron: false
+    shears-shear-pumpkin: true
+    puts-discs-in-jukebox: true
+    interact-with-cauldron: true
   create-suspicious-blocks: false
   furnace:
     burn-time:
@@ -105,4 +105,4 @@ settings:
     chance: 0.0
     enabled: false
   grindstone:
-    gives-enchants-back: false
+    gives-enchants-back: true

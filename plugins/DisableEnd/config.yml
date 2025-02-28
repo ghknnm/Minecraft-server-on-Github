@@ -1,9 +1,0 @@
-End disabled: false
-Deny End World Teleportation: true
-Kick players out of the end: true
-Bypass for Admins in Creative Mode: true
-Particles when denied placement of ender eye: true
-Sound effect when denied placement of ender eye: true
-messages:
-  Denied End Teleportation: '&7Whew. It was all a dream.'
-  Kicked from End: '&cThe End is currently disabled.'
