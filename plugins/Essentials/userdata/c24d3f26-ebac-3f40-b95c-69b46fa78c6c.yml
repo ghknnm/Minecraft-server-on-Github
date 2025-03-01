@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1740766840228
-  login: 1740763699043
+  logout: 1740851137428
+  login: 1740850333696
 money: '0'
 last-account-name: ChuoiBacSI
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
   world-name: world
-  x: 1668.2335945933662
-  y: 77.0
-  z: 917.6999999880791
-  yaw: -34.05000305175781
-  pitch: 10.199996948242188
+  x: 1697.0161444408138
+  y: 87.0
+  z: 940.2957440123622
+  yaw: -125.09375
+  pitch: 90.0

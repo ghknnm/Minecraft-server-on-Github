@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1740851137419
+  login: 1740847070724
+money: '0'
+last-account-name: NahidaMyBeloved
+logoutlocation:
+  world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
+  world-name: world
+  x: 54.10270521294744
+  y: 64.0
+  z: -226.14414064950842
+  yaw: 49.200439453125
+  pitch: 22.800031661987305
