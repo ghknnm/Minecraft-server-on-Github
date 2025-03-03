@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1740937480762
-  login: 1740935543002
+  logout: 1741001262684
+  login: 1741000850648
 money: '0'
 last-account-name: Pekora_UwU
 logoutlocation:
   world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
   world-name: world
-  x: 1572.5303254108649
+  x: 1572.699999988079
   y: 61.0
-  z: 1269.699999988079
-  yaw: 4.50244140625
-  pitch: 23.549985885620117
+  z: 1269.300000011921
+  yaw: 15.752410888671875
+  pitch: 19.050006866455078
 lastlocation:
   world: e9440921-0d44-4f69-8b1a-8caf1b56ba17
   world-name: world_nether
