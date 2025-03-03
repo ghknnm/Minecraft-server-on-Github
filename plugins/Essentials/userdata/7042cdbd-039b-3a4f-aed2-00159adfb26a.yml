@@ -11,28 +11,28 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1740849799419
+  lastteleport: 1741018253873
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1740929393166
-  login: 1740928120102
+  logout: 1741019599896
+  login: 1741017063931
 money: '0'
 last-account-name: camapbonchan
 logoutlocation:
   world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
   world-name: world
-  x: 1666.8024421559958
-  y: 70.65
-  z: 878.5
-  yaw: 59.51708984375
-  pitch: 7.964207172393799
+  x: 1663.5222293999925
+  y: 75.5625
+  z: 877.8388435913535
+  yaw: -6.92669677734375
+  pitch: 10.568455696105957
 lastlocation:
   world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
   world-name: world
-  x: 1660.666223496869
-  y: 71.0
-  z: 883.0944324151405
-  yaw: -12.4644775390625
-  pitch: 0.8407204151153564
+  x: 1647.279209492478
+  y: 67.0
+  z: 873.0909838665655
+  yaw: 111.41252899169922
+  pitch: 12.40888500213623

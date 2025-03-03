@@ -12,10 +12,10 @@
 invisible-frames: true
 
 # Image sections within this range will be visible to players
-show-distance: 64
+show-distance: 256
 
 # Image sections beyond this range will be hidden from players
-hide-distance: 128
+hide-distance: 256
 
 database:
   # The type of database that can be used
