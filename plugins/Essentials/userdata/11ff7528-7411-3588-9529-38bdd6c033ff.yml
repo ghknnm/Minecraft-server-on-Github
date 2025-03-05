@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1741151046703
-  login: 1741150370193
+  logout: 1741151648407
+  login: 1741151639418
 money: '0'
 last-account-name: ghknnm_dll
 logoutlocation:
@@ -26,8 +26,8 @@ logoutlocation:
   x: 1638.0724634383666
   y: 70.0
   z: 979.3960535512981
-  yaw: -80.83877563476562
-  pitch: -6.300032615661621
+  yaw: 87.01123046875
+  pitch: 15.899969100952148
 lastlocation:
   world: eac08c43-e5c6-446d-a3d1-54fab8ed6313
   world-name: world_the_end
