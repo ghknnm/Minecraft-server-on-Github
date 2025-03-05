@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1741151862611
-  login: 1741151775764
+  logout: 1741154753007
+  login: 1741154680211
 money: '0'
 last-account-name: Pekora_UwU
 logoutlocation:
   world: 26b78b48-bd7f-4fb6-9f9f-f467f3899bbf
   world-name: world
-  x: 1661.412515720598
-  y: 72.7531999805212
-  z: 968.3732953733585
-  yaw: 147.74998474121094
-  pitch: 14.250015258789062
+  x: 1628.3752163395566
+  y: 76.0
+  z: 978.4885683413883
+  yaw: -74.69945526123047
+  pitch: 47.100032806396484
 lastlocation:
   world: eac08c43-e5c6-446d-a3d1-54fab8ed6313
   world-name: world_the_end
